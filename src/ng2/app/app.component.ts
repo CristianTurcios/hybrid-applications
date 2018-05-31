@@ -1,6 +1,6 @@
 import { Component, Inject } from '@angular/core';
-import { PHONE_SERVICE } from "ng2/app/phone.service";
-import { UpgradeModule } from "@angular/upgrade/static";
+import { PHONE_SERVICE } from 'ng2/app/phone.service';
+import { UpgradeModule } from '@angular/upgrade/static';
 
 @Component({
   selector: 'app-root',

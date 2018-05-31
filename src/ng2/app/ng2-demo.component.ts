@@ -1,5 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { PHONE_SERVICE } from "ng2/app/phone.service";
+import { PHONE_SERVICE } from 'ng2/app/phone.service';
 
 @Component({
   selector: 'ng2-demo',

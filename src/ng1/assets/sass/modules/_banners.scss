@@ -1,0 +1,276 @@
+/* Banners for OneFaculty
+**********************/
+
+/* Passport Banner in OneFaculty Homepage
+**********************/
+
+.onefa-banner {
+	padding: 40px;
+	position: relative;
+	overflow: hidden;
+}
+
+.onefa-banner--blue {
+	background-color: $blue--banner;
+}
+
+.banner__background{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	img {
+		max-width: 1560px;
+		width: 70%;
+	}
+}
+
+.banner__image--passport {
+	text-align: center;
+	@include media(desktop-s) {
+		text-align: right;
+	}
+	img {
+		max-height: 200px;
+		@include media(desktop-s) {
+			max-height: 100%;
+		}
+	}
+}
+
+
+.onefa-banner .block {
+	min-height: 250px;
+	max-width: 400px;
+	margin: 20px auto;
+	padding: 20px;
+	background: $blue--light;
+	border-radius: 4px;
+	color: $white;
+	text-align: center;
+	@include media(desktop-s) {
+		padding: 50px;
+		min-height: 450px;
+		margin: 20px;
+	}
+	.text--white {
+		color: $white;
+	}
+	.button--white {
+		margin: 10px auto;
+		width: 100%;
+		color: $blue--dark;
+		background-color: $white;
+	}
+}
+
+.banner__title {
+	margin: 20px 0;
+}
+
+.banner__parragraph {
+	margin: 20px 0 25px 0;
+	line-height: 1.2em;
+}
+
+
+
+
+
+/* Banners for communities home
+**********************/
+
+#banner-communities-of-practice {
+	background-image: url(/assets/images/misc/banner-connect-practices.png);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: $white;
+	p {
+		margin: 10px auto;
+		@include font-size(30px);
+		@include media(mobile-only) {
+			@include font-size(18px);
+		}
+	}
+	h5 {
+	text-align: center;
+	color: #fff;
+	margin: 0 0 10px 0;
+	}
+	h4 {
+		padding-bottom: 25px;
+	}
+}
+
+#banner-communities-of-practice {
+		h4 {
+		padding: 60px 0 20px 0;
+		max-height: 439px;
+		max-height: 439px;
+		text-align: center;
+		color: $white;
+		line-height: 50px;
+		@include font-size(32px);
+			@include media(mobile-only) {
+				font-size: 20px;
+				line-height: 25px;
+			}
+	}
+	h5 {
+		font-size: 18px;
+		color: $white;
+		p {
+			font-size: 24px;
+		}
+	}
+}
+
+#banner--connected,
+.banner--learn,
+.banner--research {
+	height: 800px;
+	background: url(/assets/images/misc/banner-connected.jpg);
+	background-position: center;
+	background-size: 1000px;
+	background-repeat: no-repeat;
+}
+
+.banner--learn {
+	background-image: url(/assets/images/misc/banner-learn.jpg);
+}
+
+.banner--research {
+	background-image: url(/assets/images/misc/banner-research.jpg);
+}
+
+.contentblock .banner-bg {
+	position: relative;
+}
+
+.contentblock .banner-bg .banner-content {
+	position: absolute;
+	color: #fff;
+	top: 200px;
+	width: 42%;
+	text-align: center;
+	left: 29%;
+	font-size: 1.38em;
+	line-height: 25px;
+}
+
+.contentblock .banner-bg .banner-content h2 {
+	margin-bottom: 30px;
+	padding-bottom: 12px;
+	display: inline-block;
+	border-bottom: solid 8px $white;
+	color: $white;
+	@include font-size(30px);
+}
+
+.contentblock .banner-bg .banner-content .bigbutton {
+	display: inline-block;
+	width: 100%;
+	margin-top: 25px;
+	.button {
+		margin: auto;
+		display: inline-block;
+		padding: 14px 25px;
+		background-color: #1d2840;
+	}
+}
+
+
+
+/* Banner for Search
+**********************/
+
+
+#search-results {
+	padding-top: 19px;
+}
+
+search-header {
+	section.intro-search-general {
+		height: 30vh;
+		min-height: 245px;
+		padding: 2.8em 0;
+		margin-bottom: 18px;
+		background: -moz-linear-gradient(343deg, rgb(78, 101, 154) 48%, rgb(71, 179, 216) 100%);
+		background: -webkit-linear-gradient(343deg, rgb(78, 101, 154) 48%, rgb(71, 179, 216) 100%);
+	}
+	img {
+		display: none;
+	}
+	.search-input {
+		margin: 10px 0;
+	}
+}
+
+.search-filters-tags {
+	.tags {
+		background-color: #48a5cd;
+	}
+	h5 {
+		font-size: 16px;
+		padding-top: 6px;
+	}
+}
+
+.breadcrumb.breadcrumb--engage {
+	width: 300px;
+	display: inline-block;
+	margin-top: -12px;
+	margin-bottom: 32px;
+	position: relative;
+	z-index: 999;
+}
+
+
+section.search-filters-astags {
+	max-height: 80px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	min-height: 40px;
+}
+
+
+.tags-display.container {
+	position: relative;
+	top: -62px;
+	text-align: right;
+	margin-bottom: 0;
+}
+
+search.ng-scope.ng-isolate-scope {}
+
+.stepper.stepper--horizontal.container {margin-top: -85px;}
+
+filter-tags {
+	position: relative;
+	top: -33px;
+}
+
+h3.sidebar-search__title {
+	display: none;
+}
+
+
+
+search-header.connections-page {
+	display: inline-block;
+	width: 100%;
+	height: 279px;
+}
+
+
+search-header.connections-page .intro-search-general.intro-search-universal {
+	min-width: 0;
+	height: 240px;
+	position: relative;
+	top: -10px;
+}
+
+search-header.connections-page .search-filters-tags {
+	position: relative;
+	top: -10px;
+}

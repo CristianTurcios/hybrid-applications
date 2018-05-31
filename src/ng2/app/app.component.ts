@@ -16,7 +16,8 @@ export class AppComponent {
    constructor(private upgrade: UpgradeModule) { }
 
     ngOnInit() {
-      this.upgrade.bootstrap(document.body, ['phonecatApp']);
+      // this.upgrade.bootstrap(document.body, ['phonecatApp']);
+      this.upgrade.bootstrap(document.body, ['onefaculty']);
     }
     /*
   constructor(

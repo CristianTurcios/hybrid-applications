@@ -1,0 +1,36 @@
+/* Cards for Toolkit in Research Section
+**********************/
+
+.form-item {
+	padding: 10px;
+	clear: both;
+	input,textarea {
+		height: 40px;
+		padding: 8px;
+		width: 100%;
+		border-radius: 6px;
+		border: 2px solid $blue--lighter;
+		background-color: $white;
+	}
+	.button {
+		margin: 0 auto;
+	}
+}
+
+.form-item .userpic {
+	border-radius: 100px;
+	border: solid 1px #ccc;
+	padding: 2px;
+	height: 40px;
+	width: 40px;
+	margin: 0 6px 0 10px;
+	float: left;
+	border-radius: 20px;
+	background-color: #334161;
+	transition: background-color .25s ease-in-out;
+	background-image: url("../images/misc/user-default.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: none;
+}

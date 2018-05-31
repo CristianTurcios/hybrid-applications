@@ -1,0 +1,59 @@
+{
+  "id": "pathway-3",
+  "image": "",
+  "name": "Digital Instruction",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum.",
+  "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum. Cras nec sem at quam cursus mattis. Praesent magna nulla, consequat sit amet elementum ut, luctus at urna. Integer finibus velit sed aliquam porta. Nulla vel justo dui. Morbi vel commodo velit, at ultricies ligula. Duis malesuada mi odio, eget consectetur dui laoreet a. Duis placerat lorem sit amet justo auctor feugiat. Phasellus nec blandit lacus.",
+  "resource_groups": [
+    {
+      "id": "resource-group-1",
+      "badge": {
+        "name": "Online Learning Instructor Badge",
+        "image": ""
+      },
+      "resources": [
+        {
+          "id": "resource-1",
+          "type": "module",
+          "name": "Engaging Students Online",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        },
+        {
+          "id": "resource-2",
+          "type": "module",
+          "name": "Facilitating the Online Classroom",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        },
+        {
+          "id": "resource-3",
+          "type": "module",
+          "name": "Promoting Critical Thinking Online",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        },
+        {
+          "id": "resource-4",
+          "type": "module",
+          "name": "Encouraging Academic Integrity",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        },
+        {
+          "id": "resource-5",
+          "type": "module",
+          "name": "Providing Meaningful Feedback",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        }
+      ],
+      "required_resource_groups": null
+    }
+  ]
+}

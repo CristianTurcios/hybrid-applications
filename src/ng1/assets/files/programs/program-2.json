@@ -1,0 +1,81 @@
+{
+  "id": "program-2",
+  "name": "Laureate Digital Teaching and Learning",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum. Cras nec sem at quam cursus mattis. Praesent magna nulla, consequat sit amet elementum ut, luctus at urna. Integer finibus velit sed aliquam porta. Nulla vel justo dui. Morbi vel commodo velit, at ultricies ligula. Duis malesuada mi odio, eget consectetur dui laoreet a. Duis placerat lorem sit amet justo auctor feugiat. Phasellus nec blandit lacus.",
+  "image": "program-2",
+  "pathways": [
+    {
+      "id": "pathway-2",
+      "image": "pathway-2",
+      "name": "Introduction to Online Learning",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum.",
+      "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum. Cras nec sem at quam cursus mattis. Praesent magna nulla, consequat sit amet elementum ut, luctus at urna. Integer finibus velit sed aliquam porta. Nulla vel justo dui. Morbi vel commodo velit, at ultricies ligula. Duis malesuada mi odio, eget consectetur dui laoreet a. Duis placerat lorem sit amet justo auctor feugiat. Phasellus nec blandit lacus.",
+      "length": {
+        "from": 150,
+        "to": 300
+      },
+      "resource_groups": [
+        {
+          "id": "resource-group-3",
+          "badge": null,
+          "resources": [
+            {
+              "id": "resource-13",
+              "name": "Introduction to Digital Teaching and Learning",
+              "type": "module",
+              "length": {
+                "from": 30,
+                "to": 60
+              }
+            }
+          ]
+        },
+        {
+          "id": "resource-group-4",
+          "badge": {
+            "name": "Online Learning Explorer",
+            "image": "badge-online-explorer"
+          },
+          "resources": [
+            {
+              "id": "resource-14",
+              "name": "Digital Communication and Collaboration Tools for Teaching",
+              "type": "module",
+              "length": {
+                "from": 30,
+                "to": 60
+              }
+            },
+            {
+              "id": "resource-15",
+              "name": "Principles of Andragogy",
+              "type": "module",
+              "length": {
+                "from": 30,
+                "to": 60
+              }
+            },
+            {
+              "id": "resource-16",
+              "name": "Promoting Learning in the Blackboard Classroom",
+              "type": "module",
+              "length": {
+                "from": 30,
+                "to": 60
+              }
+            },
+            {
+              "id": "resource-17",
+              "name": "Essential Blackboard Classrooms Functions",
+              "type": "module",
+              "length": {
+                "from": 30,
+                "to": 60
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

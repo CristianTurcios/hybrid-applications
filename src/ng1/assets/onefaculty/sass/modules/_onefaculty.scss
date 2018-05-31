@@ -1,0 +1,129 @@
+/* Styles for OneFaculty Template
+ **********************/
+
+.pattern--onefaculty {
+  font-family: $Lato;
+  color: #334161;
+  background-color: #1D2840;    
+}
+
+.pattern--onefaculty .full-background {
+  background-color: #334161;
+}
+
+.modal--terms-onefaculty {
+  background: url('../img/global/onefaculty-terms-background.png') repeat-x $black;
+}
+
+.pattern--onefaculty .heading-intro {
+  font-weight: $bold;
+}
+
+.pattern--onefaculty .login-box {
+  border-radius: 4px;
+  box-shadow: 0 26px 1px -12px rgba(0, 0, 0, 0.15);
+}
+
+/* Styles for One Faculty Template Input elements
+ **********************/
+
+.pattern--onefaculty .form-input {
+  height: 50px;
+  border: 2px solid #9DB8D9;
+  background-color: $white-semismoked;
+  -webkit-appearance: none;
+  &:focus {
+    border: 2px solid #9DB8D9;
+    background-color: $white-semismoked;
+  }
+}
+
+.pattern--onefaculty .input-icon {
+  top: 28px;
+  opacity: 1;
+}
+
+.pattern--onefaculty .form-label, 
+.pattern--onefaculty .dropdown .form-input {
+  color: #728AB0;
+}
+
+.pattern--onefaculty .icon-caret-dropdown::after,
+.pattern--onefaculty .icon-caret-dropdown::before {
+  background-color: #728AB0;
+}
+
+.pattern--onefaculty .dropdown i {
+    top: 14px;
+}
+
+
+/* Styles for One Faculty Template buttons
+ **********************/
+
+.pattern--onefaculty .button {
+  height: 50px;
+  font-family: $Gibson;
+}
+
+.pattern--onefaculty .button--has-orange {
+  background-color: #CF4127;
+}
+
+.pattern--onefaculty .button--has-blue {
+  padding-top: 15px;
+  background-color: #728AB0;  
+}
+
+.pattern--onefaculty .open>.dropdown-toggle.btn-default {
+  color: #1D2840;
+  border-color: #9DB8D9;
+}
+
+.pattern--onefaculty .open>.dropdown-toggle.btn-default:hover {
+  border-color: #9DB8D9;  
+}
+
+.pattern--onefaculty .form--terms-accept-decline .button--has-orange.is-disabled {
+  background-color:#FDE6DA;
+}
+
+
+/* Styles for One Faculty Template Footer
+ **********************/
+
+.pattern--onefaculty .footer--has-dark-background {
+  padding: 40px 0;
+  border-top: 0;
+}
+
+.pattern--onefaculty .footer-has-copyright {
+  color: $white;
+  font-size: 16px;
+  font-weight: $light;
+}
+
+.pattern--onefaculty .footer-has-powered-by {
+  text-transform: uppercase;
+  img {
+    max-height: 20px;
+    margin: 0 5px;
+  }
+}
+
+/* Styles for One Faculty Template Input Icons
+ **********************/
+
+ .pattern--onefaculty .icon-email {
+	background-image: url("../img/icons/icon-email-blue.svg");
+}
+
+.pattern--onefaculty .icon-padlock {
+	background-image: url("../img/icons/icon-padlock-blue.svg");
+	background-size: 25px;
+}
+
+.pattern--onefaculty .icon-flag {
+	background-image: url("../img/icons/icon-flag-blue.svg");
+	background-size: 25px;
+}

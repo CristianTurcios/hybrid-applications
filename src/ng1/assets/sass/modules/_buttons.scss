@@ -1,0 +1,187 @@
+
+/* Buttons for OneFaculty
+**********************/
+
+.button {
+	border-radius: 4px;
+	transition: background-color .15s ease-in-out;
+	font-weight: 600;
+
+	&.ng-enter,
+	&.ng-leave,
+	&.ng-show-animate,
+	&.ng-hide-animate {
+		transition: none !important;
+	}
+}
+
+.button-primary {
+	background-color: $orange--dark;
+	&:hover {
+		background-color: $orange--medium;
+	}
+}
+
+.cover .button--ghost, .button--ghost-white {
+	background-color: transparent;
+	border-color: $white;
+	color: $white;
+	&:hover {
+		background-color: $orange--medium;
+		color: $white;
+		border: 1px solid $white;
+	}
+}
+
+
+.button-primary.button--ghost {
+	background-color: transparent;
+	border-color: $orange--dark;
+	color: $orange--dark;
+	&:hover {
+		background-color: $orange--medium;
+		color: $white;
+		border: 1px solid $orange--dark;
+	}
+}
+
+.button--centered {
+	width: auto;
+	max-width: 400px;
+	min-width: inherit;
+}
+
+/* Support Button for OneFaculty
+**********************/
+
+.button-support {
+	height: 50px;
+	width: 60px;
+	padding: 10px;
+	display: block;
+	position: fixed;
+	bottom: 100px;
+	right: 0;
+	text-align: center;
+	box-shadow: 5px 3px 0 4px rgba(0, 0, 0, 0.25);
+	background-color: $blue--darker;
+	span {
+		color: $white;
+		font-family: $Gibson;
+		font-weight: $bold;
+		text-transform: uppercase;
+		@include font-size(25px);
+		&:before, &:after{
+			width: 0;
+			height: 0;
+			left: -10px;
+			position: absolute;
+			content: "";
+		}
+		&:before{
+			border-left: 0px solid transparent;
+			border-right: 20px solid $blue--darker;
+			border-top: 50px solid transparent;
+			bottom: 0;
+		}
+		&:after{
+			border-left: 0px solid transparent;
+			border-right: 20px solid $blue--darker;
+			border-bottom: 50px solid transparent;
+			top: 0;
+		}
+	}
+
+}
+
+/* Resource Buttons/Links - Used on Passport
+**********************/
+
+.resource {
+	display:block;
+}
+.resource:before {
+	content:"";
+	display: block;
+	height:92px;
+	background-repeat: no-repeat;
+}
+.resource__text {
+	display: block;
+	min-height:60px;
+	padding:12px 14px 14px;
+	color:#FFF;
+	font-size:0.9375rem;
+	line-height: 1.133333333;
+	font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+.resource-blue:before {
+	background-color:#D6E5FB;
+}
+.resource-blue .resource__text {
+	background-color:#323E56;
+}
+.resource-purple:before {
+	background-color:#D3B7DD;
+}
+.resource-purple .resource__text {
+	background-color:#7F6284;
+}
+.resource-orange:before {
+	background-color:#FCBA42;
+}
+.resource-orange .resource__text {
+	background-color:#C33D1C;
+}
+
+.resource-directory:before {
+	background-position: 62% bottom;
+}
+.resource-directory.resource-blue:before {
+	background-image: url("../images/resources/directory-blue.svg");
+}
+.resource-directory.resource-purple:before {
+	background-image: url("../images/resources/directory-purple.svg");
+}
+.resource-directory.resource-orange:before {
+	background-image: url("../images/resources/directory-orange.svg");
+}
+
+.resource-document:before {
+	background-position: 26% bottom;
+}
+.resource-document.resource-blue:before {
+	background-image: url("../images/resources/document-blue.svg");
+}
+.resource-document.resource-purple:before {
+	background-image: url("../images/resources/document-purple.svg");
+}
+.resource-document.resource-orange:before {
+	background-image: url("../images/resources/document-orange.svg");
+}
+
+.resource-media:before {
+	background-position: left 37% bottom 10px;
+}
+.resource-media.resource-blue:before {
+	background-image: url("../images/resources/media-blue.svg");
+}
+.resource-media.resource-purple:before {
+	background-image: url("../images/resources/media-purple.svg");
+}
+.resource-media.resource-orange:before {
+	background-image: url("../images/resources/media-orange.svg");
+}
+
+.resource-website:before {
+	background-position: 73% bottom;
+}
+.resource-website.resource-blue:before {
+	background-image: url("../images/resources/website-blue.svg");
+}
+.resource-website.resource-purple:before {
+	background-image: url("../images/resources/website-purple.svg");
+}
+.resource-website.resource-orange:before {
+	background-image: url("../images/resources/website-orange.svg");
+}

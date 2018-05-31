@@ -1,0 +1,13 @@
+/* no outline for elements */
+a:focus,
+input:focus,
+button:focus,
+select:focus {
+  outline: none;
+}
+
+/* restore outline */
+body.user-is-tabbing *:focus {
+  outline: 2px solid #7AACFE !important; /* for non-webkit browsers */
+  outline: 5px auto -webkit-focus-ring-color !important;
+}

@@ -1,0 +1,197 @@
+$orange--passport: #CC3E1F;
+
+
+/* Colors for Institutions
+**********************/
+
+$glion-primary: #AD8A5B;
+$glion-secondary: #053143;
+$roches-primary: #B30E00;
+$roches-secondary: #111;
+$upes-primary: #E87800;
+$upes-secondary: #222;
+$walden-primary: #D69F0D;
+$walden-secondary: #00657D;
+$newschool-primary: #72AB00;
+$newschool-secondary:  #4C4C4C;
+$kendall-primary: #921130;
+$kendall-secondary:  #AA0029;
+$kendall-tertiary: #60c6bb;
+$domus-primary: #004797;
+$domus-secondary:  #333333;
+$nhu-primary: #FFA60E;
+$nhu-secondary: #000;
+$santafe-primary: #FECE30;
+$santafe-secondary: #E2202D;
+$pearl-primary: #FF3100;
+$pearl-secondary: #222;
+$btk-primary: #E8007B;
+$btk-secondary: #284353;
+$naba-primary: #7CAF22;
+$naba-secondary: #000;
+$unab-primary: #B11A20;
+$unab-secondary: #131D31;
+$uvm-mex-primary: #EA2000;
+$uvm-mex-secondary: #222222;
+$unam-primary: #00AB8D;
+$unam-secondary: #00796A;
+$fmu-primary: #CE0000;
+$fmu-secondary: #333333;
+$uniritter-primary: #CF3436;
+$uniritter-secondary: #1A1A1A;
+$upc-primary: #B30E00;
+$upc-secondary: #333333;
+$torrens-primary: #ff851b;
+$torrens-secondary: #5C5C5C;
+$stamford-primary: #009EE7;
+$stamford-secondary: #333333;
+$htk-primary: #fbb903;
+$htk-secondary: #000000;
+$bsp-primary: #f7941e;
+$bsp-secondary: #081118;
+
+/* Styles for Themes in OneCampus by Laureate
+**********************/
+
+.onecampus-view--page{
+	margin: 0;
+}
+
+.onecampus-view{
+	.img-circle.sidebar-profile__avatar{
+		border: 1px solid $orange--passport;
+	}
+}
+
+.onecampus-view{
+	.board-profile > .row{
+		max-width: 1260px;
+	}
+}
+
+.onecampus-view h3.card__title.ng-binding {
+  text-transform: uppercase;
+}
+
+/* Themes for Institutions
+**********************/
+
+.walden-theme{
+  @include theme-layout($walden-primary, $walden-secondary);
+  .intro-student-portal {
+    @include background-overlay ($walden-secondary);
+  }
+}
+
+
+.passport--walden--theme {
+ .sidebar-profile {
+   background-color: $walden-primary;
+ }
+
+ &.board-with-sidebar.board-with-sidebar--profile {
+   background-color: $walden-primary;
+ }
+}
+
+/* Themes for Programs
+**********************/
+.onefaculty-view {
+	#program--home {
+		background-color: #FAFAFA;
+		padding-bottom: 100px;
+	}
+}
+
+/*
+.upes-theme {
+  @include theme-layout($upes-primary, $upes-secondary);
+}
+
+.nsad-theme {
+  @include theme-layout($newschool-primary, $newschool-secondary);
+}
+
+.lesroches-ch-theme {
+  @include theme-layout($roches-primary, $roches-secondary);
+}
+
+.kendall-theme {
+  @include theme-layout($kendall-primary, $kendall-secondary);
+}
+
+.gihe-theme {
+  @include theme-layout($glion-primary, $glion-secondary);
+}
+
+.domus-theme {
+  @include theme-layout($domus-primary, $domus-secondary);
+}
+
+.nhu-theme {
+  @include theme-layout($nhu-primary, $nhu-secondary);
+}
+
+.csf-theme {
+  @include theme-layout($santafe-primary, $santafe-secondary);
+}
+
+.paf-theme {
+  @include theme-layout($pearl-primary, $pearl-secondary);
+}
+
+.btkuas-theme {
+  @include theme-layout($btk-primary, $btk-secondary);
+}
+
+.naba-theme {
+  @include theme-layout($naba-primary, $naba-secondary);
+}
+
+.uvm-mex-theme {
+  @include theme-layout($uvm-mex-primary, $uvm-mex-secondary);
+}
+
+.unab-theme {
+  @include theme-layout($unab-primary, $unab-secondary);
+}
+
+.unam-theme {
+  @include theme-layout($unam-primary, $unam-secondary);
+}
+
+.fmu-theme {
+  @include theme-layout($fmu-primary, $fmu-secondary);
+}
+
+.uniritter-theme {
+  @include theme-layout($uniritter-primary, $uniritter-secondary);
+}
+
+.upc-theme {
+  @include theme-layout($upc-primary, $upc-secondary);
+}
+
+.stamford-theme {
+  @include theme-layout($stamford-primary, $stamford-secondary);
+}
+
+.btkhtk-theme {
+  @include theme-layout($htk-primary, $htk-secondary);
+}
+
+.bsp-theme {
+  @include theme-layout($bsp-primary, $bsp-secondary);
+}
+*/
+.gray-neutral-theme {
+	background-image: url("/assets/images/student/bg-neutralgray-theme.png");
+	background-size: cover;
+	.nav-main a {
+		color: #414242;
+		background: none;
+	}
+	.nav-dropdown--language .nav-dropdown-button {
+		color: #414242;
+	}
+}

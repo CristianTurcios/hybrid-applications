@@ -1,0 +1,19 @@
+{
+  "id": "resource-4",
+  "type": "video",
+  "name": "Digital Tools for Structure and Function",
+  "length": 20,
+  "finished": false,
+  "image": "resource-1",
+  "author": "effa106e-5183-48dc-a7d6-3e5facafe4c3",
+  "contents": [
+    {
+      "title": "What is Gamification?",
+      "paragraphs": [
+        "Merriam-Webster’s dictionary (1993) defines gamification as a process of “adding games or game-like elements to something (as a task) so as to encourage participation.” You may find this definition confusing when you hear other phrases or terms like “game-based learning.” In the rush to incorporate the latest technology into learning environments, these terms can become blurred and often are mistakenly interchanged",
+        "dasdasdsa",
+        "Gamification can be viewed as a larger effort of adding game-like elements into your course. Instead of courses consisting of only lectures and textbooks for information, students are provided opportunities to choose or search on their own within the course to achieve learning goals. This approach is self-paced; students’ progress through a series of educational activities. Because it is student-driven, it boosts student engagement. Typical strategies used involve recognizing achievements through points, badges, and leaderboards or progress boards."
+      ]
+    }
+  ]
+}

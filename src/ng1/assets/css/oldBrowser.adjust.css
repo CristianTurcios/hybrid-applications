@@ -1,0 +1,820 @@
+/** ::::::::::::::: STYLES FOR 404 (404PAGES)  ::::::::::::::: AUTHOR: ANGELA VELAZQUEZ :::::::::::::::::::::::::::: ** 
+=== === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === == == === ====*/
+
+#pagenotfound {
+    background-color: #EEEEEE;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	height: auto;
+	margin: 0 auto; 
+	text-align: center;
+	width: 100%;
+}
+
+#pagenotfound #header {	
+	height: 170px;
+	margin: 10px auto;
+	padding-top: 12px;
+	width: 100%;	
+}
+
+#pagenotfound #header h1 {
+	color: #F15B21;
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 0.5;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+}
+
+#pagenotfound #header h2 {
+	color: #333;
+	font-size: 0.85em;
+	font-weight: 600;
+	margin: 0 auto;
+	margin-top: 15px;	
+	width: 80%;
+}
+
+#pagenotfound #header img {
+	display: inline-block;
+	height: 50px;
+	margin: 13px auto;
+	width: 50px;
+}
+
+#pagenotfound #content {
+	border-top: dotted #ACACAC 1px;
+	clear: both;
+	height: auto;
+	padding: 5px;
+	margin: 0 auto;
+	width: 60%;
+}
+
+#pagenotfound #content a {
+	color: #333333;
+	display: inline-block;
+	font-size: 0.85em;
+	font-weight: 600;
+	line-height: 1.75em;
+	margin: 10px 20px;	
+	text-decoration: none;
+	text-align: center;
+}
+
+#pagenotfound #content a i {
+	display: block;
+	font-size: 2.75em;
+	margin: 4px auto;
+}
+
+@media only screen and (min-width: 40.5em){
+#pagenotfound {
+	width: 80%;
+}
+
+#pagenotfound #header {	
+	height: 220px;
+	padding-top: 60px;
+	width: 80%;	
+}
+
+#pagenotfound #header h1 {
+	display: inline-block;
+	position: relative;
+	float: left;
+	text-align: center;
+	float: left;
+	width: 110%;
+	top: -69px;
+	font-size: 3.35em;
+	line-height: 0.95em;
+}
+
+#pagenotfound #header h2 {
+	display: inline-block;
+	position: relative;
+	color: #444;
+	font-size: 1.45em;
+	font-weight: 400;
+	line-height: 1.15em;
+	width: 90%;
+	margin: 0;
+	top: -49px;
+}
+
+#pagenotfound #header img {
+	display: block;
+	position: relative;
+	float: left;
+	height: 55px;
+	margin-left: 24%;
+	width: 55px;
+}
+
+#pagenotfound #content {
+	height: 50%;
+	width: 60%;
+}
+
+#pagenotfound #content a  {
+	margin: 20px 30px;	
+}
+
+#pagenotfound #content a i {
+	font-size: 3em;
+	margin: 10px 0 10px 0;
+}
+}
+
+@media only screen and (min-width: 62em){
+#pagenotfound {
+	width: 60%;
+}
+
+#pagenotfound #header {	
+	height: 270px;
+	padding-top: 70px;
+	margin: 0 auto;
+	width: 560px;	
+}
+
+#pagenotfound #header h1 {
+	font-size: 4.15em;
+	width: 115%;
+	line-height: 0.75em;
+}
+
+#pagenotfound #header h2 {
+	font-size: 2em;
+	line-height: 1.25em;
+	margin-top: 45px;	
+	width: 100%;
+}
+
+#pagenotfound #header img {
+	height: 62px;
+	margin-left: 16%;
+	width: 62px;
+}
+
+#pagenotfound #content {
+	height: 50%;
+	margin: 30px auto;
+	width: 500px;
+}
+
+#pagenotfound #content a {
+	line-height: 2.75em;
+	font-size: 1em;
+	margin: 20px 50px;	
+	font-weight: 400;
+}
+
+#pagenotfound #content a i {
+	font-size: 3.25em;
+	margin: 10px 0 5px 0;
+}
+}
+
+
+/** ::::::::::::::: STYLES FOR 404 (Report)  ::::::::::::::: AUTHOR: ANGELA VELAZQUEZ :::::::::::::::::::::::::::: ** 
+=== === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === == == === ====*/
+#pagenotfoundfeedback
+{
+	background-color: #EEEEEE;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	height: 100%;
+	margin: 0 auto; 
+	text-align: center;
+	width: 100%;
+}
+
+#pagenotfoundfeedback #header
+{
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 90%;	
+}
+
+#pagenotfoundfeedback #header h2
+{
+	color: #F15B21; 
+	padding-bottom: 10px;
+	font-size: 1.5em;
+}
+
+#pagenotfoundfeedback #header h3
+{
+	display: none;
+}
+
+#pagenotfoundfeedback #content
+{
+	background-image:  url("img/adjusts/bg-form.png");
+	color: #CCCCCC;
+	height: 250px;
+	margin: 0 auto;
+	padding: 20px 20px;
+	width: 95%;	
+}
+
+#pagenotfoundfeedback #content p {
+	margin: 0 auto;
+	margin-bottom: 15px;
+	width: 100%;	
+}
+
+#pagenotfoundfeedback #content .feedback
+{
+	height: 60px;
+	margin-bottom: 25px;
+	width: 100%;	
+}
+
+#pagenotfoundfeedback #content .submitbtn {
+	border: 0;
+	height: 40px;
+	margin-left: 30%;
+	width: 100px;
+	text-align: center;	
+}
+
+@media only screen and (min-width: 420px){
+#pagenotfoundfeedback #content {
+	width: 85%;	
+}
+
+#pagenotfoundfeedback #content .feedback {
+	height: 80px;
+	margin-bottom: 25px;
+	width: 100%;	
+}
+#pagenotfoundfeedback #content .submitbtn {
+	padding-right: 0px;
+	text-align: center;
+}
+}
+
+@media only screen and (min-width: 699px){
+#pagenotfoundfeedback
+{
+	width: 70%;
+}
+
+#pagenotfoundfeedback #header
+{
+	height: 230px;
+	padding-top: 80px;
+}
+
+#pagenotfoundfeedback #header h2
+{
+	color: #F15B21; 
+	padding-bottom: 20px;
+	font-size: 1.75em;
+}
+
+#pagenotfoundfeedback #header h3
+{
+	display: inline-block;
+	padding: 20px;
+	font-size: 1.25em;
+	font-weight: 400;
+}
+
+#pagenotfoundfeedback #content
+{
+	background-image: url(../img/adjusts/bg-form.png);
+	color: #CCCCCC;
+	height: 300px;
+	margin: 0 auto;
+	padding: 20px 20px;
+	width: 90%;	
+}
+
+#pagenotfoundfeedback #content p {
+	margin-bottom: 25px;
+	width: 80%;
+}	
+
+#pagenotfoundfeedback #content .feedback
+{
+	height: 120px;
+	width: 90%;	
+}
+
+#pagenotfoundfeedback #content .submitbtn
+{
+	margin-left: 40%;
+}
+}
+
+@media only screen and (min-width: 1000px){
+#pagenotfoundfeedback
+{
+	width: 70%;
+}
+
+#pagenotfoundfeedback #header
+{
+	height: 270px;
+	padding-top: 90px;	
+	width: 80%;
+}
+
+#pagenotfoundfeedback #header h2
+{
+	font-size: 2.25em;
+}
+
+#pagenotfoundfeedback #header h3
+{
+	padding-top: 40px;
+	font-size: 1.25em;
+}
+
+#pagenotfoundfeedback #content
+{
+	height: 360px;
+	padding: 30px 40px;
+	width: 75%;	
+}
+
+#pagenotfoundfeedback #content .feedback
+{
+	height: 160px;
+}
+
+#pagenotfoundfeedback #content .submitbtn
+{
+	margin-left: 42%;
+}
+}
+
+@media only screen and (min-width: 1500px){
+#pagenotfoundfeedback
+{
+	width: 60%;
+}
+
+#pagenotfoundfeedback #header
+{
+	height: 280px;
+	padding-top: 100px;	
+	width: 70%;
+}
+
+#pagenotfoundfeedback #content
+{
+	width: 65%;	
+}
+}
+/** ::::::::::::::: STYLES FOR 404 (OLDBROWSER)  ::::::::::::::: AUTHOR: ANGELA VELAZQUEZ :::::::::::::::::::::::::::: ** 
+=== === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === == == === ====*/
+
+#oldbrowser 
+{
+	background-color: #EFEFEF;
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	width: 960px;	
+}
+
+#oldbrowser #header
+{
+	height: 160px;
+	margin-bottom: 10px;
+	margin: 0 auto;
+	padding-top: 60px;
+	width: 690px;	
+}
+
+#oldbrowser #header h2, #oldbrowser #header h1   
+{
+	color: #F15B21;
+	display: inline-block;
+	font-size: 4em;
+	font-weight: 400;
+	float: left;
+	line-height: 1.35em;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+#oldbrowser #header h1  {margin:0;height: auto;width: 50%;clear: none;padding: 0;}
+
+#oldbrowser #header #subtitle
+{
+	color: #333;
+	clear: both;
+	height: auto;
+	font-size: 2em;
+	font-weight: 600;
+	margin: 20px auto;
+	text-align: center;
+	width: 100%;
+}
+
+#oldbrowser #header img
+{
+	display: inline-block;
+	float: left;
+	margin: 0 20px 0 200px;
+}
+
+#oldbrowser #maincontent
+{
+	color: #666;
+	clear: both;
+	display: inline-block;
+	font-weight: 400;
+	height: 70%;	
+	margin: 0 auto;
+	width: 90%;	
+}
+
+#oldbrowser #maincontent #content
+{
+	color: #666;
+	heigth: auto;
+	font-weight: 400;
+	margin-top: 10px;	
+	width: 100%;
+}
+
+
+#oldbrowser #maincontent #content h3
+{
+	height: auto;
+	font-size: 1em;
+	margin: 20px auto;
+	width: 70%;
+	font-weight:normal;
+}
+
+#oldbrowser #maincontent #content p
+{
+	font-size: 0.85em;
+	margin: 30px 0;
+}
+
+#oldbrowser #maincontent #btnaccept
+{
+	height: 50px;
+	padding-top: 1px;
+	margin: 20px auto;
+	width: 200px;	
+}
+
+#oldbrowser #maincontent .btnaccept
+{
+	height: 50px;
+	width: 170px;	
+}
+
+#oldbrowser #maincontent #browsers 
+{
+	heigth: auto;
+	margin: 0 auto;
+	padding-top: 5px; 
+	width: 650px;	
+}
+
+#oldbrowser #maincontent #browsers p
+{
+	color: #F15A20;
+	font-weight:600;
+	margin: 30px 0;	
+}
+
+#oldbrowser #maincontent #browsers ul
+{
+	display: inline-block;	
+}
+
+#oldbrowser #maincontent #browsers ul li
+{
+	display:inline-block;
+	float: left;	
+	height: auto;
+	margin: 0 10px;
+	width: 140px;
+}
+
+#oldbrowser #maincontent #browsers ul li:hover
+{
+	height: auto;
+	opacity: 0.55;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	width: 140px;
+}
+
+#oldbrowser #maincontent #browsers ul li img
+{
+	display: inline-block;
+	float: left;
+	margin-left: 30px;
+}
+
+#oldbrowser #maincontent #browsers ul li a
+{
+	clear: both;
+	color: #666; 
+	display: block;
+	line-height: 2em;
+	font-size: 0.70em;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+
+#oldbrowser #maincontent #browsers ul li #ie
+{
+	height: 82px;
+	margin-left: 40px;
+	width: 65px;	
+}
+
+#oldbrowser #maincontent #browsers ul li #firefox
+{
+	height: 85px;
+	width: 85px;
+}
+
+#oldbrowser #maincontent #browsers ul li #safari
+{
+	height: 85px;
+	margin: 0 35px;
+	width: 67px;
+}
+
+#oldbrowser #maincontent #browsers ul li #chrome
+{
+	height: 84px;
+	width: 73px;
+}
+
+#oldbrowser #maincontent #browsers a #ie:hover
+{
+	height: 84px;
+	width: 67px;	
+}
+
+#oldbrowser #maincontent #browsers a #firefox:hover
+{
+	height: 87px;
+	width: 87px;	
+}
+
+#oldbrowser #maincontent #browsers a #safari:hover
+{
+	height: 87px;
+	width: 69px;	
+}
+
+#oldbrowser #maincontent #browsers a #chrome:hover
+{
+	height: 86px;
+	width: 75px;	
+}
+
+
+
+/** ::::::::::::::: STYLES FOR UNAVAILABLE (UNAVAILABLE PROGRAMS)  ::::::::::::::: AUTHOR: ANGELA VELAZQUEZ :::::::::::::::::::::::::::: ** 
+=== === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === === == == === ====*/
+
+#unavailable {
+	background-color: #EEEEEE;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	height: auto;
+	margin: 0 auto; 
+	text-align: center;
+	width: 100%;
+}
+
+#unavailable #header {
+	height: 40%;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+	width: 90%;
+}	
+
+#unavailable #header img {
+	display: inline-block;
+	height: 35px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	position: relative;
+	width: 35px;
+}
+
+#unavailable #header h2 {
+	font-size: 1.5em;
+	font-weight: 400;
+	line-height: 1.25em;
+	margin-bottom: 10px;
+	margin-left: 40px;
+	padding-top: 5px;
+}
+
+#unavailable #header h3 {
+	clear: both;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 10px auto;
+	padding-top: 15px;	
+}
+
+#unavailable #maincontent {
+	border-top:  dotted #ACACAC 1px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 98%;
+}
+
+#unavailable #maincontent p {
+		color: #8D8D8D;
+		font-size: 1em;
+		font-weight: 400;
+		padding-bottom: 10px;
+}
+
+#unavailable #maincontent section.smalltile {
+		background-color: #000;
+		display: inline-block;
+		height: 160px;
+		margin: 5px auto;
+		position: relative;
+		overflow: hidden;
+		width: 350px;
+		vertical-align: top;
+	}
+	
+#unavailable #maincontent section.smalltile img.tileimage {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		-moz-opacity: 0.55;
+		opacity: 0.55;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=55);
+	}
+
+#unavailable #maincontent section.smalltile .tile-subtitle {
+		position: absolute;	
+		color: #fff;
+		font-family: 'Dosis', sans-serif;
+		font-size: 1em;
+		font-weight: 600;
+		padding-top: 15px;
+		padding-left: 10px;
+		text-transform: uppercase;
+}
+
+#unavailable #maincontent section.smalltile h2{
+		padding-left: 10px;
+		padding-top: 100px;
+		position: relative;
+		font-size: 1em;
+		text-align: left;	
+}
+
+#unavailable #contentbuttons {
+	height: 150px;
+	padding: 0 10px;
+	margin: 0 auto;
+	width: 350px;
+}
+
+#unavailable #contentbuttons .browsebtn {
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	line-height: 2.25em;
+	height: 55px;
+	width: 230px;	
+}
+
+#unavailable #contentbuttons .homebtn {
+	float: left;
+	height: 55px;
+	line-height: 2.25em;
+	margin-left: 20px;	
+	width: 230px;	
+}
+
+#unavailable #contentbuttons a.browsebtn:hover, #unavailable #contentbuttons a.homebtn:hover {
+	text-decoration: none;
+}
+
+#unavailable #contentbuttons i {
+	font-size: 1.5em;
+	margin-right: 10px;	
+}
+
+@media only screen and (min-width: 699px){
+#unavailable {
+	width: 80%;
+}
+
+#unavailable #header {
+	height: 40%;
+	padding: 10px;
+	padding-top: 40px;
+	width: 70%;
+}
+
+#unavailable #header img {
+	height: 50px;
+	width: 50px;
+	margin-right: 0px;
+
+}
+
+#unavailable #header h2 {
+	font-size: 2.25em;
+	margin-bottom: 20px;
+}
+
+#unavailable #header h3 {
+	font-size: 1.25em;
+	margin: 10px auto;
+	padding: 15px 0;
+}
+
+#unavailable #maincontent {
+	margin: 0 auto;
+	padding: 30px 0;
+	width: 100%;
+}
+
+#unavailable #maincontent section.smalltile {
+		margin: 20px 15px;
+	}
+
+#unavailable #contentbuttons {
+	height: 80px;
+	width: 550px;
+}
+}
+
+@media only screen and (min-width: 1000px){
+#unavailable  {
+	color: #636;
+	width: 70%;
+}
+
+#unavailable #header {
+	height: 270px;
+	padding: 10px;
+	padding-top: 65px;
+	width: 800px;
+}
+
+#unavailable #header img {
+	height: 62px;
+	width: 62px;
+}
+
+#unavailable #header h2 {
+	font-size: 2.75em;
+	line-height: 1.25em;
+	margin-bottom: 20px;
+}
+
+#unavailable #header h3 {
+	font-size: 1.5em;
+}
+
+#unavailable #maincontent {
+	margin: 20px auto;
+	padding: 50px 0 0 0;
+}
+
+#unavailable #maincontent p {
+	margin-bottom: 15px;	
+}
+
+#unavailable #maincontent section.smalltile {
+		margin: 15px;
+		margin-bottom: 30px;
+	}
+
+#unavailable #contentbuttons {
+	height: 80px;
+	margin: 30px auto;
+	width: 550px;
+}
+}

@@ -1,0 +1,129 @@
+.landingpage .vp-full { width: 100vw; height: 100vh; position: relative; }
+
+.landingpage .vp-full .link-scroll { position: absolute; bottom: 17%; opacity: 1.5; -webkit-animation-duration: 0.6s; animation-duration: 0.6s; -webkit-animation-delay: 0s; animation-delay: 0s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+
+.landingpage .landing-container { width: 100%; }
+
+.landingpage .button-scroll-down a { color: #000; font-size: 24px; font-family: 'Noto Serif', Georgia, Serif; margin-top: 10%; padding-bottom: 15px; border-bottom: solid 14px #000; display: inline-block; }
+
+.landingpage .connect-landing .animated-gf > div { position: absolute; }
+
+.landingpage .connect-landing .connect-landing-welcome { position: relative; z-index: 100; left: 0; top: 0; height: 90vh; width: 100%; }
+
+.landingpage .connect-landing .connect-landing-welcome h1, .landingpage .connect-landing .connect-landing-welcome h2, .landingpage .connect-landing .connect-landing-welcome h3, .landingpage .connect-landing .connect-landing-welcome h4, .landingpage .connect-landing .connect-landing-welcome h5 { color: #000; font-family: 'Gibson', 'Lato', sans-serif; font-weight: 800; text-transform: none; }
+
+.landingpage .connect-landing .connect-landing-welcome h1 { font-size: 2.96em; font-weight: 600; }
+
+.landingpage .connect-landing .connect-landing-welcome .panel-welcome { height: 100%; overflow: hidden; position: absolute; left: 0; top: 0; width: 100%; z-index: 0; }
+
+.landingpage .connect-landing .connect-landing-welcome .panel-welcome #panel-intro-01 { left: -1%; bottom: 4.5%; width: 38%; -webkit-animation-duration: 22s; animation-duration: 22s; -webkit-animation-delay: 1s; animation-delay: 1s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+
+.landingpage .connect-landing .connect-landing-welcome .panel-welcome #panel-intro-01 img { width: 100%; height: auto; }
+
+.landingpage .connect-landing .connect-landing-welcome .panel-welcome #panel-intro-02 { right: 2%; top: 4%; width: 20%; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-delay: 5s; animation-delay: 5s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+
+.landingpage .connect-landing .connect-landing-welcome .panel-welcome #panel-intro-02 img { width: 100%; height: auto; }
+
+.landingpage .connect-landing .panel1 { height: 100%; position: absolute; left: 0; top: 0; width: 100%; z-index: 0; }
+
+.landingpage .connect-landing .panel1 #panel1-01 { position: absolute; right: 0; top: 21%; -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-delay: 1s; animation-delay: 1s; }
+
+.landingpage .connect-landing .panel1 #panel1-01 img { width: 100%; height: auto; }
+
+.landingpage .connect-landing .panel1 #panel1-02 { position: absolute; left: 49%; bottom: -1%; width: 21%; -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-delay: 2s; animation-delay: 2s; }
+
+.landingpage .connect-landing .panel1 #panel1-02 img { width: 100%; height: auto; }
+
+.landingpage .connect-landing #intro-connections .content-right img { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-delay: 3s; animation-delay: 3s; -webkit-animation-iteration-count: 1; animation-iteration-count: 1; }
+
+.landingpage .connect-landing .panel2 { height: 100%; position: absolute; left: 0; top: 0; width: 100%; z-index: 0; }
+
+.landingpage .connect-landing .panel2 #panel2-01 { position: absolute; left: 50%; top: -4%; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-delay: 5s; animation-delay: 5s; }
+
+.landingpage .connect-landing .panel2 #panel2-01 img { width: 100%; height: auto; }
+
+.landingpage .connect-landing .panel2 #panel2-02 { position: absolute; right: 5%; top: 10%; width: 9%; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-delay: 5s; animation-delay: 5s; }
+
+.landingpage .connect-landing .panel2 #panel2-02 img { width: 100%; height: auto; }
+
+.landingpage .connect-landing .panel2 #panel2-03 { position: absolute; bottom: 18%; right: 0; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-delay: 5s; animation-delay: 5s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+
+.landingpage .connect-landing .panel2 #panel2-03 img { width: 100%; height: auto; }
+
+.landingpage .connect-landing .panel2 #panel2-04 { position: absolute; bottom: 1%; right: 6%; width: 40%; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-delay: 5s; animation-delay: 5s; }
+
+.landingpage .connect-landing .panel2 #panel2-04 img { width: 100%; height: auto; }
+
+.landingpage .connect-landing #intro-communities .content-right img { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-delay: 3s; animation-delay: 3s; }
+
+.landingpage .connect-landing .panel3 { height: 100%; position: absolute; left: 0; top: 0; width: 100%; z-index: 0; }
+
+.landingpage .connect-landing .panel3 #panel3-01 { right: 17%; top: -5%; width: 26%; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-delay: 5s; animation-delay: 5s; }
+
+.landingpage .connect-landing .panel3 #panel3-01 img { width: 100%; height: auto; }
+
+.landingpage .connect-landing .panel3 #panel3-02 { right: 0%; bottom: 19%; width: 47%; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-delay: 5s; animation-delay: 5s; }
+
+.landingpage .connect-landing .panel3 #panel3-02 img { width: 100%; height: auto; }
+
+.landingpage .connect-landing #intro-groups .content-right img { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-delay: 3s; animation-delay: 3s; -webkit-animation-iteration-count: 1; animation-iteration-count: 1; }
+
+.landingpage .connect-landing .landing-container { position: relative; margin: auto; width: 100%; padding: 12% 22.5% 0 22.5%; max-width: 100%; font-size: 1.8em; padding-top: 12%; height: 100%; }
+
+.landingpage .content-left { font-size: 1.28em; padding-top: 25vh; text-align: justify; }
+
+.landingpage .content-left h4 { color: #3F68D4; font-size: 3.2em; font-weight: 800; letter-spacing: 0.03em; margin-bottom: 24px; }
+
+.landingpage .content-left h5 { font-weight: 800; font-size: 1.6em; }
+
+.landingpage .content-left p { font-family: 'Noto Serif', Georgia, Serif; }
+
+.landingpage .content-left .button-primary { margin-top: 20px; display: inline-block; padding: 15px 40px; }
+
+.landingpage .content-right { text-align: center; padding-top: 20vh; }
+
+.landingpage .content-right img { border-radius: 100%; width: 80%; max-width: 500px; border: solid 24px #78B26C; }
+
+.landingpage .callout-footer { width: 100%; text-align: center; }
+
+.landingpage .callout-footer .benefits { background-color: #F2F2F2; padding: 5% 0; height: 50%; }
+
+.landingpage .callout-footer .benefits .container { max-width: 800px; }
+
+.landingpage .callout-footer .benefits .container h1 { font-family: 'Gibson', Helvetica; font-weight: 600; color: #3F68D4; margin-bottom: 34px; }
+
+.landingpage .callout-footer .benefits .container h5 { font-family: 'Gibson', Helvetica; font-weight: 600; color: #78B26C; margin-bottom: 30px; font-size: 1.5em; }
+
+.landingpage .callout-footer .benefits .container p { font-family: 'Noto Serif', georgia; font-size: 0.95em; text-align: justify; }
+
+.landingpage .callout-footer .join-passport { background-color: #3F68D4; padding: 10% 0; height: 50%; background-image: url(/assets/images/landings/connect-landing-footer.jpg); background-size: cover; background-position: center center; }
+
+.landingpage .callout-footer .join-passport .container { max-width: 600px; }
+
+.landingpage .callout-footer .join-passport .container h1 { color: #fff; font-family: 'Gibson', Helvetica; font-size: 2.6em; font-weight: 600; margin-bottom: 30px; }
+
+.landingpage .callout-footer .join-passport .container .button-primary { display: inline-block; font-size: 1.3em; padding: 10px 30px; }
+
+body.page-deploy { -webkit-animation: colorchange 6s; animation: colorchange 6s; /* animation-name followed by duration in seconds*/ -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; /* you could also use milliseconds (ms) or something like 2.5s */ -webkit-animation: colorchange 6s; /* Chrome and Safari */ -webkit-animation-iteration-count: infinite; }
+
+@keyframes colorchange { 0% { background: #73B2A7; }
+  45% { background: #73B2A7; }
+  50% { background: #BE523B; }
+  90% { background: #BE523B; }
+  98% { background: #507E48; }
+  100% { background: #73B2A7; } }
+
+@-webkit-keyframes colorchange { 0% { background: #73B2A7; }
+  45% { background: #73B2A7; }
+  50% { background: #BE523B; }
+  90% { background: #BE523B; }
+  98% { background: #507E48; }
+  100% { background: #73B2A7; } }
+
+body.page-deploy .container-deploy { background: #fff; margin: auto; max-width: 680px; margin-top: 10%; text-align: center; padding: 50px 30px; font-size: 90%; border: solid 14px #1E283E; }
+
+body.page-deploy .container-deploy h2 { margin-bottom: 12px; }
+
+body.page-deploy h1.logo-onefaculty-big { background-image: url(../images/landings/logo-onefaculty-deploypage.png); background-size: contain; background-repeat: no-repeat; display: block; margin: auto; width: 250px; height: 218px; }
+
+body.page-deploy h1.logo-onefaculty-big span { display: none; }

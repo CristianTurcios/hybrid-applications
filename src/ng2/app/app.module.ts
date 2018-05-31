@@ -17,7 +17,8 @@ export class CustomHandlingStrategy implements UrlHandlingStrategy {
   merge(url, whole) { return url; }
 }
 
-angular.module('phonecatApp')
+// angular.module('phonecatApp')
+angular.module('onefaculty')
   .directive(
     'ng2Demo',
     downgradeComponent({component: Ng2DemoComponent})

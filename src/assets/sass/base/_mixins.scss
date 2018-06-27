@@ -1,0 +1,134 @@
+
+
+/* Adjust Font Size to Rem
+**********************/
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+
+/* Mixin for University themes customization (on Passport)
+**********************/
+
+@mixin background-overlay ($color) {
+  &:before {
+    z-index: $zIndex-1;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .7; 
+    background: $color;
+  }
+}
+
+
+@mixin theme-layout ($color-primary, $color-secondary) {
+
+	//Microsite for institutions
+ 
+  .catalog header > h2, .catalog header > span {
+    color: ($color-secondary);
+  }
+  
+	//Dashboard for institutions 
+  .intro-student-portal {
+    background-color: ($color-primary);
+  }
+  .header-with-parent {
+  	> h2 {
+      color: ($color-secondary);
+      &:after {
+        background-color: $color-primary;
+      }
+    }
+    > h3 {
+      color: ($color-secondary);
+    }
+  }
+  .tabs-horizontal li > a {
+    color: ($color-primary);
+  }
+  .card-course {
+    span.code, a.button {
+    color: ($color-primary);
+    }
+  }
+  .card-bar-progress {
+    background-color: $color-secondary;
+  }
+  .card-timeline {
+    .button {
+      background-color: $color-secondary;
+    }
+  }
+  .card-code::after {
+    background-color: ($color-primary);
+  }
+  .card-title::before {
+    background-color: ($color-primary);
+  }
+  .intro .header-with-parent {
+    > h2 {
+      color: $white;
+    }
+    > h3 {
+      color: $white;
+    }
+  }
+  .card .button, .button--catalog-microsite {
+    color: ($color-primary);
+    border: 2px solid ($color-primary);
+    &:hover {
+      background-color: ($color-primary);
+      color: $white;
+    }
+  }
+	
+  .hero-banner .button {
+    background-color: ($color-primary);
+  }
+ 
+//Help and Support Modal
+  .modal {
+    header.help-support {
+      a.button-transparent {
+        border-color: ($color-primary);
+      }
+      a > i {
+        color: ($color-primary);
+      }
+    }
+    .header > h2:before {
+      background-color: ($color-primary);
+    }
+    a {
+      color: ($color-primary);
+    }
+  }
+	
+	// Main Navigation
+	.nav-main a:hover {
+		color: $white;
+		text-decoration: underline;
+  }
+	.nav-main a.selected:hover {
+		text-decoration: none;
+	}
+	.nav-main a.selected::after {
+  	background-color: $color-secondary;
+	}	
+	.nav-dropdown--language .nav-dropdown-button:hover span {
+		color: $white;
+		text-decoration: underline;
+	}
+}

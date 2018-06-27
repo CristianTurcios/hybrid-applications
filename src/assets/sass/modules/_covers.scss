@@ -1,0 +1,188 @@
+
+/* Covers for OneFaculty
+**********************/
+
+.cover {
+	min-height: 340px;
+	height: auto;
+	padding-top: 60px;
+	position: relative;
+	z-index: $zIndex-1;
+	text-align: center;
+	@include media(desktop-s) {
+		max-height: 520px;
+		text-align: left;
+	}
+	@include media (mobile-only) {
+		display: none;
+	}
+}
+
+
+
+.cover--gray {
+	background-image: url('../images/covers/bg-texture--gray.jpg');
+	.cover__parragraph {
+		color: $blue--dark;
+	}
+}
+
+.cover--orange, .cover--learn {
+	background-image: url('../images/covers/bg-texture--orange.jpg');
+}
+
+.cover--green, .cover--connect {
+	background-image: url('../images/covers/bg-texture--green.jpg');
+}
+
+.cover--aqua, .cover--research {
+	background-image: url('../images/covers/bg-texture--aqua.jpg');
+}
+
+#connect--home {
+
+	.yammer-header-img {
+		background-image: url(../images/covers/yammer-header-desktop.png);
+		min-height: 147px;
+		height: auto;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	section.search {
+		clear: both;
+	padding: 0 0 40px 0;
+	}
+}
+
+
+
+.yammer-header-img {
+	background-image: url(../images/covers/yammer-header-desktop.png);
+	min-height: 147px;
+	height: auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.cover--blue, .cover--groups {
+	background-color: #29A6C6;
+	min-height: 240px;
+	margin-bottom: 25px;
+	color: #fff;
+	line-height: 28px;
+	font-size: 1.2em;
+	font-weight: 100;
+}
+
+
+.cover--yellow {
+	background-image: url('../images/covers/bg-texture--yellow.jpg');
+}
+
+.cover__illustration {
+	max-width: 380px;
+	position: relative;
+	top: -50px;
+	margin: auto;
+	@include media(desktop-s) {
+		max-width: 650px;
+		position: absolute;
+	}
+}
+
+.cover__title {
+	font-family: $Gibson;
+	font-weight: $extrabold;
+	color: $blue--dark;
+	@include font-size(25px);
+	@include media(desktop-s) {
+		@include font-size(45px);
+	}
+	span.title-smaller {
+	font-size: 60%;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: -11px;
+}
+}
+
+.cover__parragraph {
+	margin: 10px 0 30px 0;
+	font-weight: $light;
+	color: $white;
+	@include font-size(28px);
+}
+
+.cover--connect .cover__parragraph {
+	font-size: 1.4em;
+}
+
+.cover .button{
+	margin: 20px 0;
+	max-width: 320px;
+	display: inline-block;
+	width: auto;
+	@include font-size(16px);
+	@include media(desktop-s) {
+		margin: 0 15px 40px 0;
+	}
+}
+
+
+/* Cover variation in homepage
+**********************/
+
+.onefaculty-homepage .cover {
+	@include media(desktop-s) {
+		min-height: 420px;
+	}
+	@include media(desktop-xl) {
+		min-height: 455px;
+	}
+}
+
+/* Button showed on signed versions
+**********************/
+
+.button.show-on-signed {
+	display: none;
+}
+
+.is-logged-in .button.show-on-signed {
+	display: none;
+}
+
+.cover--learn, .cover--research, .cover--connect{
+	.cover__illustration {
+		max-height: 180px;
+		@include media(desktop-s) {
+			max-height: 360px;
+		}
+	}
+}
+.cover .button-primary {
+	padding: 15px 60px;
+	max-width: 285px;
+	width: 100%;
+	background-color: #1d2840;
+}
+
+.cover .button-primary:hover {
+	background-color: #2d64b7;
+}
+
+/* Temporary remove "Learn More" buttons from covers
+*/
+
+.cover a.button.button--xl.button-primary {
+	display: none;
+}
+
+
+.cover--connect a.button.button--xl.button-primary {
+	display: inline-block;
+}

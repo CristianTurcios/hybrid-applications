@@ -1,0 +1,101 @@
+/***********************************************************
+*** CUSTOMIZE THE LOADING SCREEN BACKGROUND + ICON COLORS
+************************************************************/
+/* loading screen background color */
+#mktplc-pageloader {
+    background-color:#FFFFFF;
+}
+
+/***********************************************************
+*** THE NITTY-GRITTY
+************************************************************/
+/* the pageloader */
+#mktplc-pageloader {
+    position:absolute;
+    z-index:99999999999999;
+    width:100%;
+    height:1000%;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin-top:-50px;
+}
+
+.mktplc-pageloader-fade {
+    opacity:0 ;
+
+    -webkit-transition: all .75s ease;
+    -moz-transition: all .75s ease;
+    -o-transition: all .75s ease;
+    -ms-transition: all .75s ease;
+    transition: all .75s ease;
+}
+
+.mktplc-pageloader-unfade {
+    opacity:1 !important;
+
+    -webkit-transition: all .50s ease;
+    -moz-transition: all .50s ease;
+    -o-transition: all .50s ease;
+    -ms-transition: all .50s ease;
+    transition: all .50s ease;
+}
+.mktplc-pageloader-hide {
+    display:none;
+}
+
+/* the loading icon */
+.mktplc-pageloader-icon {
+    width:100px;
+    height:100px;
+    position:absolute;
+    margin:100px 0 0 0;
+    opacity:1;
+    top:0;
+}
+.mktplc-pageloader-icon-hide {
+    opacity:0 !important;
+
+    -webkit-transition: all .75s ease;
+    -moz-transition: all .75s ease;
+    -o-transition: all .75s ease;
+    -ms-transition: all .75s ease;
+    transition: all .75s ease;
+}
+
+
+/* lets give the page body that subtle slide-in animation */
+/*
+html {
+    height:100%;
+
+    -webkit-backface-visibility: hidden;
+
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -ms-transform-origin:bottom;
+    -o-transform-origin:bottom;
+    transform-origin:bottom;
+
+    -webkit-transition: all .50s ease;
+    -moz-transition: all .50s ease;
+    -o-transition: all .50s ease;
+    -ms-transition: all .50s ease;
+    transition: all .50s ease;
+}
+
+.mktplc-html-onload{
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    transform: translateY(-50px);
+
+    -webkit-transition: all 0s ease;
+    -moz-transition: all 0s ease;
+    -o-transition: all 0s ease;
+    -ms-transition: all 0s ease;
+    transition: all 0s ease;
+}
+*/

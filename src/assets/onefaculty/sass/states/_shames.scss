@@ -1,0 +1,12 @@
+
+/* You know what this does. Repeat yourself "I need to code better CSS"
+ **********************/
+
+
+/* Hack for full height in all the pages. This is created because Angular creates a single div as a container for all the layout.
+ **********************/
+#main-content {
+  height: 100%;
+	padding-top: 1px;
+	margin-top: -1px;	
+}

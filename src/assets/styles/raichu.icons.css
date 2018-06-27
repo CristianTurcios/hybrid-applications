@@ -1,0 +1,640 @@
+.icon-anthropology:before {
+  content: "\e900";
+}
+.icon-appliedarts:before {
+  content: "\e901";
+}
+.icon-appointment:before {
+  content: "\e902";
+}
+.icon-archaeology:before {
+  content: "\e903";
+}
+.icon-arrow-down-light:before {
+  content: "\e904";
+}
+.icon-arrow-down:before {
+  content: "\e905";
+}
+.icon-arrow-left-simple:before {
+  content: "\e906";
+}
+.icon-arrow-left:before {
+  content: "\e907";
+}
+.icon-arrow-right-simple:before {
+  content: "\e908";
+}
+.icon-arrow-right:before {
+  content: "\e909";
+}
+.icon-arrow-up:before {
+  content: "\e90a";
+}
+.icon-author:before {
+  content: "\e90b";
+}
+.icon-badge:before {
+  content: "\e90c";
+}
+.icon-biology:before {
+  content: "\e90d";
+}
+.icon-bird-home:before {
+  content: "\e90e";
+}
+.icon-book-covered:before {
+  content: "\e90f";
+}
+.icon-book-faculty:before {
+  content: "\e910";
+}
+.icon-book-with-apple:before {
+  content: "\e911";
+}
+.icon-book:before {
+  content: "\e912";
+}
+.icon-bookmark:before {
+  content: "\e913";
+}
+.icon-box:before {
+  content: "\e914";
+}
+.icon-briefcase:before {
+  content: "\e915";
+}
+.icon-calendar:before {
+  content: "\e916";
+}
+.icon-camcorder:before {
+  content: "\e917";
+}
+.icon-camera:before {
+  content: "\e918";
+}
+.icon-catalog:before {
+  content: "\e919";
+}
+.icon-chain:before {
+  content: "\e91a";
+}
+.icon-chart:before {
+  content: "\e91b";
+}
+.icon-chat:before {
+  content: "\e91c";
+}
+.icon-check-bold:before {
+  content: "\e91d";
+}
+.icon-check:before {
+  content: "\e91e";
+}
+.icon-chemistry:before {
+  content: "\e91f";
+}
+.icon-chevron-down-simple:before {
+  content: "\e920";
+}
+.icon-chevron-left:before {
+  content: "\e921";
+}
+.icon-chevron-right:before {
+  content: "\e922";
+}
+.icon-chevron-up-simple:before {
+  content: "\e923";
+}
+.icon-circle-check:before {
+  content: "\e924";
+}
+.icon-circle-flag:before {
+  content: "\e925";
+}
+.icon-circle-help:before {
+  content: "\e926";
+}
+.icon-circle-search:before {
+  content: "\e927";
+}
+.icon-clipboard:before {
+  content: "\e928";
+}
+.icon-clock:before {
+  content: "\e929";
+}
+.icon-close-simple:before {
+  content: "\e92a";
+}
+.icon-close:before {
+  content: "\e92b";
+}
+.icon-comment:before {
+  content: "\e92c";
+}
+.icon-communications:before {
+  content: "\e92d";
+}
+.icon-communities:before {
+  content: "\e92e";
+}
+.icon-computer:before {
+  content: "\e92f";
+}
+.icon-computersciences:before {
+  content: "\e930";
+}
+.icon-connections:before {
+  content: "\e931";
+}
+.icon-controllers:before {
+  content: "\e932";
+}
+.icon-course:before {
+  content: "\e933";
+}
+.icon-discover:before {
+  content: "\e934";
+}
+.icon-download-squared:before {
+  content: "\e935";
+}
+.icon-download:before {
+  content: "\e936";
+}
+.icon-edit:before {
+  content: "\e937";
+}
+.icon-email:before {
+  content: "\e938";
+}
+.icon-engineering:before {
+  content: "\e939";
+}
+.icon-enter:before {
+  content: "\e93a";
+}
+.icon-exclamation-bold:before {
+  content: "\e93b";
+}
+.icon-exclamation:before {
+  content: "\e93c";
+}
+.icon-external-link:before {
+  content: "\e93d";
+}
+.icon-eye:before {
+  content: "\e93e";
+}
+.icon-facebook-isolated:before {
+  content: "\e93f";
+}
+.icon-facebook:before {
+  content: "\e940";
+}
+.icon-faculty:before {
+  content: "\e941";
+}
+.icon-favorite:before {
+  content: "\e942";
+}
+.icon-feedback-close:before {
+  content: "\e943";
+}
+.icon-feedback-feedforward:before {
+  content: "\e944";
+}
+.icon-feedback-open:before {
+  content: "\e945";
+}
+.icon-file-avi:before {
+  content: "\e946";
+}
+.icon-file-doc:before {
+  content: "\e947";
+}
+.icon-file-jpg:before {
+  content: "\e948";
+}
+.icon-file-pdf:before {
+  content: "\e949";
+}
+.icon-file-png:before {
+  content: "\e94a";
+}
+.icon-file-ppt:before {
+  content: "\e94b";
+}
+.icon-file-txt:before {
+  content: "\e94c";
+}
+.icon-file-type:before {
+  content: "\e94d";
+}
+.icon-file-xls:before {
+  content: "\e94e";
+}
+.icon-file-zip:before {
+  content: "\e94f";
+}
+.icon-file:before {
+  content: "\e950";
+}
+.icon-flag:before {
+  content: "\e951";
+}
+.icon-folder:before {
+  content: "\e952";
+}
+.icon-genderandsexuality:before {
+  content: "\e953";
+}
+.icon-geography:before {
+  content: "\e954";
+}
+.icon-goal:before {
+  content: "\e955";
+}
+.icon-google:before {
+  content: "\e956";
+}
+.icon-grid-view:before {
+  content: "\e957";
+}
+.icon-group:before {
+  content: "\e958";
+}
+.icon-harvard:before {
+  content: "\e959";
+}
+.icon-heart:before {
+  content: "\e95a";
+}
+.icon-help-bold:before {
+  content: "\e95b";
+}
+.icon-help:before {
+  content: "\e95c";
+}
+.icon-history:before {
+  content: "\e95d";
+}
+.icon-home:before {
+  content: "\e95e";
+}
+.icon-hourglass:before {
+  content: "\e95f";
+}
+.icon-id-card:before {
+  content: "\e960";
+}
+.icon-idea:before {
+  content: "\e961";
+}
+.icon-international-class:before {
+  content: "\e962";
+}
+.icon-international-opportunities:before {
+  content: "\e963";
+}
+.icon-journalism:before {
+  content: "\e964";
+}
+.icon-languages:before {
+  content: "\e965";
+}
+.icon-laureate-board:before {
+  content: "\e966";
+}
+.icon-laureate-id:before {
+  content: "\e967";
+}
+.icon-leaders:before {
+  content: "\e968";
+}
+.icon-leaf:before {
+  content: "\e969";
+}
+.icon-leave:before {
+  content: "\e96a";
+}
+.icon-lecturer:before {
+  content: "\e96b";
+}
+.icon-less:before {
+  content: "\e96c";
+}
+.icon-library:before {
+  content: "\e96d";
+}
+.icon-like:before {
+  content: "\e96e";
+}
+.icon-linguistics:before {
+  content: "\e96f";
+}
+.icon-link:before {
+  content: "\e970";
+}
+.icon-linkedin-isolated:before {
+  content: "\e971";
+}
+.icon-linkedin-ok:before {
+  content: "\e972";
+}
+.icon-linkedin:before {
+  content: "\e973";
+}
+.icon-list-view:before {
+  content: "\e974";
+}
+.icon-literature:before {
+  content: "\e975";
+}
+.icon-live:before {
+  content: "\e976";
+}
+.icon-location:before {
+  content: "\e977";
+}
+.icon-map:before {
+  content: "\e978";
+}
+.icon-marketing:before {
+  content: "\e979";
+}
+.icon-math:before {
+  content: "\e97a";
+}
+.icon-mathematics:before {
+  content: "\e97b";
+}
+.icon-message:before {
+  content: "\e97c";
+}
+.icon-more:before {
+  content: "\e97d";
+}
+.icon-news:before {
+  content: "\e97e";
+}
+.icon-notification:before {
+  content: "\e97f";
+}
+.icon-one-circle:before {
+  content: "\e980";
+}
+.icon-onecampus-arrow:before {
+  content: "\e981";
+}
+.icon-onecampus:before {
+  content: "\e982";
+}
+.icon-onefaculty:before {
+  content: "\e983";
+}
+.icon-online:before {
+  content: "\e984";
+}
+.icon-padlock-checked:before {
+  content: "\e985";
+}
+.icon-padlock-unlock:before {
+  content: "\e986";
+}
+.icon-padlock:before {
+  content: "\e987";
+}
+.icon-path:before {
+  content: "\e988";
+}
+.icon-pen:before {
+  content: "\e989";
+}
+.icon-pencil:before {
+  content: "\e98a";
+}
+.icon-people-bussiness:before {
+  content: "\e98b";
+}
+.icon-people:before {
+  content: "\e98c";
+}
+.icon-philosophy:before {
+  content: "\e98d";
+}
+.icon-physics:before {
+  content: "\e98e";
+}
+.icon-picture:before {
+  content: "\e98f";
+}
+.icon-pin:before {
+  content: "\e990";
+}
+.icon-pinterest:before {
+  content: "\e991";
+}
+.icon-play-bold:before {
+  content: "\e992";
+}
+.icon-play:before {
+  content: "\e993";
+}
+.icon-presentation:before {
+  content: "\e994";
+}
+.icon-program:before {
+  content: "\e995";
+}
+.icon-raichu:before {
+  content: "\e996";
+}
+.icon-reading:before {
+  content: "\e997";
+}
+.icon-recreation:before {
+  content: "\e998";
+}
+.icon-repository-squared:before {
+  content: "\e999";
+}
+.icon-resource:before {
+  content: "\e99a";
+}
+.icon-search:before {
+  content: "\e99b";
+}
+.icon-setting:before {
+  content: "\e99c";
+}
+.icon-signature-products:before {
+  content: "\e99d";
+}
+.icon-speaker:before {
+  content: "\e99e";
+}
+.icon-square-check:before {
+  content: "\e99f";
+}
+.icon-star:before {
+  content: "\e9a0";
+}
+.icon-student:before {
+  content: "\e9a1";
+}
+.icon-systemssciences:before {
+  content: "\e9a2";
+}
+.icon-tag:before {
+  content: "\e9a3";
+}
+.icon-telephone:before {
+  content: "\e9a4";
+}
+.icon-tool:before {
+  content: "\e9a5";
+}
+.icon-trash:before {
+  content: "\e9a6";
+}
+.icon-trending:before {
+  content: "\e9a7";
+}
+.icon-trophee:before {
+  content: "\e9a8";
+}
+.icon-twitter:before {
+  content: "\e9a9";
+}
+.icon-two-circles:before {
+  content: "\e9aa";
+}
+.icon-university:before {
+  content: "\e9ab";
+}
+.icon-unplugged:before {
+  content: "\e9ac";
+}
+.icon-upload-cloud:before {
+  content: "\e9ad";
+}
+.icon-upload:before {
+  content: "\e9ae";
+}
+.icon-user:before {
+  content: "\e9af";
+}
+.icon-video:before {
+  content: "\e9b0";
+}
+.icon-weather:before {
+  content: "\e9b1";
+}
+.icon-world:before {
+  content: "\e9b2";
+}
+.icon-youtube:before {
+  content: "\e9b3";
+}
+.icon-add:before {
+  content: "\e9b4";
+}
+.icon-heart-full:before {
+  content: "\e9b5";
+}
+.icon-passport:before {
+  content: "\e9b6";
+}
+.icon-book-open:before {
+  content: "\e9b7";
+}
+.icon-list-view-simple:before {
+  content: "\e9b8";
+}
+.icon-microphone:before {
+  content: "\e9b9";
+}
+.icon-arts:before {
+  content: "\e9ba";
+}
+.icon-paper-plane:before {
+  content: "\e9bb";
+}
+.icon-ambassador:before {
+  content: "\e9bc";
+}
+.icon-more-options:before {
+  content: "\e9bd";
+}
+.icon-cohort:before {
+  content: "\e9be";
+}
+.icon-codev:before {
+  content: "\e9bf";
+}
+.icon-individual:before {
+  content: "\e9c0";
+}
+.icon-health-and-fitness:before {
+  content: "\e9c1";
+}
+.icon-info:before {
+  content: "\e9c2";
+}
+.icon-facebook-messenger:before {
+  content: "\e9c3";
+}
+.icon-check-squared:before {
+  content: "\e9c4";
+}
+.icon-competency:before {
+  content: "\e9c5";
+}
+.icon-content-squared:before {
+  content: "\e9c6";
+}
+.icon-enrolled:before {
+  content: "\e9c7";
+}
+.icon-globe:before {
+  content: "\e9c8";
+}
+.icon-lock-squared:before {
+  content: "\e9c9";
+}
+.icon-repository:before {
+  content: "\e9ca";
+}
+.icon-university-squared:before {
+  content: "\e9cb";
+}
+
+/* Don't change anything beyond this point. =========== */
+
+@font-face {
+	font-family: 'raichu';
+	src:url('/assets/fonts/raichu.eot?6kxrs1');
+	src:url('/assets/fonts/raichu.eot?#iefix6kxrs1') format('embedded-opentype'),
+		url('/assets/fonts/raichu.ttf?6kxrs1') format('truetype'),
+		url('/assets/fonts/raichu.woff?6kxrs1') format('woff'),
+		url('/assets/fonts/raichu.svg?6kxrs1#raichu') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'raichu';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 3rem;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

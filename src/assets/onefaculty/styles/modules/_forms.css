@@ -1,0 +1,12 @@
+/* Cards for Toolkit in Research Section
+**********************/
+.form-item .card {
+  margin-bottom: 40px;
+  padding: 40px;
+  min-height: 300px;
+  text-align: center;
+}
+
+.form-item .button {
+  margin: 0 auto;
+}

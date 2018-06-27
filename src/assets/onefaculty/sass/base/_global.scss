@@ -1,0 +1,42 @@
+
+
+body { 
+  background-color: #F2F2F2;  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  vertical-align: top;
+  margin: 0;
+  padding: 0; 
+}
+
+h2 {
+  font-weight: $extrabold;
+  adjust-font-size-to:(40px);
+}
+
+h3 {
+  font-weight: $extrabold;
+  adjust-font-size-to:(30px, 2.5);
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

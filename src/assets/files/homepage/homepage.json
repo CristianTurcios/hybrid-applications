@@ -1,0 +1,164 @@
+{
+	"id": "resource-1",
+	"next_level": {
+		"title": "NEXT_LEVEL_TITLE",
+		"text": "NEXT_LEVEL_TEXT"
+	},
+	"how_ready": {
+		"sub_title": "HOW_READY_SUB_TITLE",
+		"title": "HOW_READY_TITLE",
+		"text": "HOW_READY_TEXT"
+	},
+	"online_courses": {
+		"sub_title": "ONLINE_COURSES_SUB_TITLE",
+		"title": "ONLINE_COURSES_TITLE",
+		"text": "ONLINE_COURSES_TITLE"
+	},
+	"universities": {
+		"sub_title": "UNIVERSITIES_SUB_TITLE",
+		"title": "UNIVERSITIES_TITLE",
+		"text": "UNIVERSITIES_TEXT",
+        "profile_1": {
+            "name": "UNIVERSITIES_PROFILE_1_NAME",
+            "avatar_img": "/assets/images/homepage/avatar-al.png",
+            "ocupation": "UNIVERSITIES_PROFILE_1_OCUPATION",
+            "university_logo": "/assets/images/homepage/logo-torrens.jpg",
+            "why": "UNIVERSITIES_PROFILE_1_WHY"
+        },
+        "profile_2": {
+            "name": "UNIVERSITIES_PROFILE_2_NAME",
+            "avatar_img": "/assets/images/homepage/avatar-aj.png",
+            "ocupation": "UNIVERSITIES_PROFILE_2_OCUPATION",
+            "university_logo": "/assets/images/homepage/logo-uvm.jpg",
+            "why": "UNIVERSITIES_PROFILE_2_WHY"
+        }
+	},
+	"start_journey": {
+		"sub_title": "START_JOURNEY_SUB_TITLE",
+		"title": "START_JOURNEY_TITLE",
+		"text": "START_JOURNEY_TEXT"
+	},
+	"connect": {
+		"title": "CONNECT_TITLE",
+		"text": "CONNECT_TEXT"
+	},
+	"teaching_pathways": {
+		"title": "TEACHING_PATHWAYS_TITLE",
+		"text": "TEACHING_PATHWAYS_TEXT",
+		"card": {
+			"sub_title": "TEACHING_PATHWAYS_CARD_SUB_TITLE",
+			"title": "TEACHING_PATHWAYS_CARD_TITLE",
+			"items": [{
+					"icon": "text",
+					"text": "TEACHING_PATHWAYS_PAPER_1"
+				},
+				{
+					"icon": "text",
+					"text": "TEACHING_PATHWAYS_PAPER_2"
+				},
+				{
+					"icon": "text",
+					"text": "TEACHING_PATHWAYS_PAPER_3"
+				},
+				{
+					"icon": "text",
+					"text": "TEACHING_PATHWAYS_PAPER_4"
+				},
+				{
+					"icon": "text",
+					"text": "TEACHING_PATHWAYS_PAPER_5"
+				},
+				{
+					"icon": "text",
+					"text": "TEACHING_PATHWAYS_PAPER_6"
+				},
+				{
+					"icon": "text",
+					"text": "TEACHING_PATHWAYS_PAPER_7"
+				},
+				{
+					"icon": "text",
+					"text": "TEACHING_PATHWAYS_PAPER_8"
+				},
+				{
+					"icon": "text",
+					"text": "TEACHING_PATHWAYS_PAPER_9"
+				}
+			]
+		}
+	},
+	"research_toolkits": {
+		"title": "RESEARCH_TOOLKITS_TITLE",
+		"text": "RESEARCH_TOOLKITS_TEXT",
+        "card": {
+			"sub_title": "RESEARCH_TOOLKITS_CARD_SUB_TITLE",
+			"title": "RESEARCH_TOOLKITS_CARD_TITLE",
+			"items": [{
+					"icon": "text",
+					"text": "RESEARCH_TOOLKITS_PAPER_1"
+				},
+				{
+					"icon": "text",
+					"text": "RESEARCH_TOOLKITS_PAPER_2"
+				},
+				{
+					"icon": "text",
+					"text": "RESEARCH_TOOLKITS_PAPER_3"
+				},
+				{
+					"icon": "text",
+					"text": "RESEARCH_TOOLKITS_PAPER_4"
+				},
+				{
+					"icon": "text",
+					"text": "RESEARCH_TOOLKITS_PAPER_5"
+				},
+				{
+					"icon": "text",
+					"text": "RESEARCH_TOOLKITS_PAPER_6"
+				},
+				{
+					"icon": "text",
+					"text": "RESEARCH_TOOLKITS_PAPER_7"
+				},
+				{
+					"icon": "text",
+					"text": "RESEARCH_TOOLKITS_PAPER_8"
+				},
+				{
+					"icon": "text",
+					"text": "RESEARCH_TOOLKITS_PAPER_9"
+				},
+				{
+					"icon": "text",
+					"text": "RESEARCH_TOOLKITS_PAPER_10"
+				},
+				{
+					"icon": "",
+					"text": "RESEARCH_TOOLKITS_AND_MORE"
+				}
+			]
+		}
+	},
+	"connect_with_peers": {
+		"title": "CONNECT_WITH_PEERS_TITLE",
+		"text": "CONNECT_WITH_PEERS_TEXT",
+        "profile_1": {
+            "name": "Jeffrey Walton",
+            "avatar_img": "/assets/images/homepage/avatar-jw.png",
+            "ocupation": "CONNECT_WITH_PEERS_PROFILE_1_OCUPATION",
+            "university_logo": "/assets/images/homepage/logo-uvm.jpg"
+        },
+        "profile_2": {
+            "name": "Valerie McGuire",
+            "avatar_img": "/assets/images/homepage/avatar-vm.png",
+            "ocupation": "CONNECT_WITH_PEERS_PROFILE_2_OCUPATION",
+            "university_logo": "/assets/images/homepage/logo-stamford.jpg"
+        },
+        "group_1": {
+            "logo": "/assets/images/misc/community-logo-languages.png",
+            "title": "CONNECT_WITH_PEERS_GROUP_1_TITLE",
+            "members": "354"
+        }
+	}
+}

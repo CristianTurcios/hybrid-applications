@@ -1,0 +1,72 @@
+#loading-spinner {
+  width: 100%;
+  max-width: 600px;
+  margin: 200px auto 0 auto;
+  text-align: center;
+}
+
+#loading-spinner h1 {
+  color: #DF4722;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+#loading-spinner .spinner {
+  margin: 60px auto;
+  width: 140px;
+  height: 60px;
+  text-align: center;
+  font-size: 10px;
+}
+
+#loading-spinner .spinner > div {
+  background-color: #a7b8de;
+  height: 100%;
+  width: 20px;
+  display: inline-block;
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+#loading-spinner .spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+          animation-delay: -1.1s;
+}
+
+#loading-spinner .spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+          animation-delay: -1.0s;
+}
+
+#loading-spinner .spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s;
+}
+
+#loading-spinner .spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}

@@ -1,0 +1,107 @@
+.funding__container {
+	max-width: 854px;
+	@include media(tablet) {
+		width: 854px;
+	}
+}
+
+.funding__content {
+	font-family: $Gibson;
+
+	p {
+		font-size: 16px;
+		color: #0D1733;
+		letter-spacing: 0;
+		line-height: 24px;
+		margin-top: 30px;
+	}
+
+	.card-resource__downloads {
+		margin-top: 40px;
+		margin-bottom: 40px;
+
+		h3 {
+			font-size: 34px;
+			font-weight: $light;
+			color: #0D1733;
+			line-height: 36px;
+			margin-bottom: 20px;
+			margin-left: 10px;
+		}
+		span {
+			font-size: 25px;
+			margin-bottom: 20px;
+		}
+		.card-resource__downloads--link {
+			margin-top: 10px;
+			a {
+				font-weight: $semibold;
+				margin-bottom: 10px;
+				text-decoration: underline;
+				display: inline-block;
+				width: calc(100% - 30px);
+			}
+			img {
+				vertical-align: top;
+			}
+
+		}
+		.card-resource__downloads--title {
+			font-size: 15px;
+		}
+	}
+}
+
+.research__opportunities-container {
+	margin-top: 70px;
+	margin-bottom: 40px;
+
+	&.container, .container {
+		max-width: 854px;
+		@include media(tablet) {
+			width: 854px;
+		}
+	}
+	.one-accent-box {
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+	}
+	.one-accent-box--hdg {
+		padding-left: 40px;
+	}
+	.research__opportunities-title_text {
+		margin-bottom: 20px;
+		padding-left: 40px;
+	}
+	.research__opportunities-article {
+		background-color: #F05C22;
+		min-height: 200px;
+	}
+	.research__opportunities-title {
+		background-color: $white;
+		color: #0D1733;
+		cursor: pointer;
+		margin-right: 0px;
+		width: 250px;
+		margin-top: 20px;
+		margin-left: 20px;
+		min-height: 150px;
+		h6 {
+			font-family: $Gibson;
+			font-weight: $semibold;
+			margin-top: 15px;
+			font-size: 12px;
+			letter-spacing: 1px;
+			line-height: 16px;
+		}
+		h5 {
+			font-weight: $semibold;
+			font-family: $Gibson;
+			margin-top: 10px;
+			font-size: 18px;
+			letter-spacing: 0.56px;
+			line-height: 24px;
+		}
+	}
+}

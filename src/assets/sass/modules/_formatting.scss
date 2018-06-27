@@ -1,0 +1,341 @@
+/* Formatting Styles
+**********************/
+
+.onefaculty-view {
+	margin-top: 60px;
+	min-height: 70%;
+	height: auto;
+	@include media(desktop-s) {
+		min-height: 98vh;
+		margin-top: 60px;
+	}
+}
+
+body.onefaculty-view,
+.onefaculty-view__no-margin { margin-top: 0; }
+
+.view--passport { margin-top: 60px; }
+
+.container {
+	@include media(desktop-s) {
+		width: 100%;
+		max-width: 1200px;
+	}
+}
+
+.container {
+		@include media(desktop-xl) {
+		width: 98%;
+		max-width: 1400px;
+	}
+}
+
+.container__slim {
+	max-width: 884px;
+	@include media(mobile-only) {
+      padding-left: 20px;
+			padding-right: 20px;
+  }
+}
+
+/* Reset border
+**********************/
+
+.no-border{
+	border: none!important;
+}
+
+/* Headers in content blocks
+**********************/
+
+.header-section {
+	margin: 20px auto;
+	width: 100%;
+	text-align: center;
+	@include media(desktop-xl) {
+		margin: 50px 0 0 0;
+	}
+}
+
+.header-section__title {
+	width: auto;
+	max-width: 800px;
+	margin: 20px auto;
+	padding-bottom: 10px;
+	display: inline-block;
+	font-family: $Gibson;
+	font-weight: $bold;
+	color: $orange--dark;
+	border-bottom: 6px solid $gray--light;
+	@include font-size(25px);
+	@include media(desktop-s) {
+		@include font-size(30px);
+	}
+}
+
+.onefaculty-homepage .pull-left {
+    float: left !important;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.header-section__title--white {
+	color: $white;
+	border-bottom: 6px solid $gray--light;
+}
+
+.header-section__title--blue {
+	color: $blue--dark;
+	border-bottom: 6px solid $gray--light;
+}
+
+.contentblock--gray .header-section__title {
+	border-bottom: 6px solid $white;
+}
+
+.header-section__parragraph {
+	margin: 20px auto;
+	color: $blue--dark;
+	font-weight: $light;
+	@include font-size(18px);
+	@include media(desktop-s) {
+		@include font-size(22px);
+	}
+}
+
+.header-section__parragraph--white {
+	color: $white;
+}
+
+
+/* Formatting in content blocks
+**********************/
+
+.contentblock {
+	padding: 40px 0;
+	@include media(desktop-s) {
+		padding: 40px 0 80px;
+	}
+	.button--centered {
+		margin: 10px auto 20px;
+	}
+}
+
+.contentblock--gray {
+	background-color: $gray--light;
+}
+
+.contentblock--blue {
+	background-color: $blue--dark;
+}
+
+.contentblock--blue-medium {
+	background-color: $blue--medium;
+}
+
+
+/* Formatting in content blocks
+**********************/
+
+.tile {
+	width: 100%;
+	display: block;
+	float: left;
+	height: auto;
+	color: $blue--dark;
+	@include media(desktop-m) {
+		width: 50%;
+		height: 610px;
+	}
+}
+
+.tile--about {
+	padding: 45px;
+	background-color: $white;
+	h4 {
+		margin: 40px 0 20px;
+		font-family: $Gibson;
+		font-weight: $bold;
+		text-transform: uppercase;
+		color: $blue--dark;
+		@include font-size(25px);
+	}
+	p {
+		@include font-size(17px);
+		line-height: 28px;
+
+	}
+	p.text--italic {
+		font-style: italic;
+	}
+}
+
+.tile--about--img {
+	overflow: hidden;
+	img {
+		min-height: 100%;
+		min-width: 100%;
+	}
+}
+
+.onefaculty-homepage .pull-left {
+	min-height: 300px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+
+/* Formatting for communities homepage
+**********************/
+
+.contentblock#about {
+	font-weight: 100;
+	line-height: 35px;
+	color: $blue--dark;
+	text-align: center;
+}
+
+
+/* Formatting for Learning Opportunities
+**********************/
+
+.opportunity {
+	min-height: 420px;
+	padding: 40px;
+	text-align: center;
+	border: none;
+	position: relative;
+	margin-bottom: 25px;
+	.button {
+		margin: 10px auto;
+		width: 300px;
+		display: inline-block;
+		position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    bottom: 55px;
+	}
+}
+
+.opportunity-text {
+	color: $white;
+	p{
+		font-weight: $light;
+		@include font-size(25px);
+	}
+}
+
+.opportunity-logo {
+	height: 100px;
+	margin: 30px auto;
+	img {
+		max-height: 100px;
+	}
+}
+
+.opportunity--orange-medium {
+	background-color: $orange--medium;
+}
+
+.opportunity--blue-light {
+	background-color: $blue--light;
+}
+
+.opportunity--gray-dark {
+	background-color: $gray--dark;
+}
+
+.opportunity--orange-dark {
+	background-color: $orange--dark;
+}
+
+
+/* Formatting for Connect About
+**********************/
+
+.video-container {
+	height: 345px;
+	border: solid 4px #ccc;
+	position: relative;
+	text-align: center;
+	transform-style: preserve-3d;
+	overflow: hidden;
+	padding: 10px;
+	max-width: 800px;
+	margin: auto;
+	@include media(mobile-only) {
+		height: 220px;
+	}
+}
+
+
+
+.video-container img {
+	opacity: 0.5;
+	transition: all .5s ease-in-out;
+	object-fit: cover;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: solid 10px #fff;
+	width: 110%;
+	@include media(mobile-only) {
+		width: 150%;
+	}
+}
+
+.video-container img:hover {
+	opacity: 1;
+}
+
+.video-container .video-icon-container {
+	position: absolute;
+	top: 40%;
+	height: 80px;
+	width: 80px;
+	background-color: #619252;
+	border-radius: 100px;
+	left: 40%;
+	padding: 5px;
+}
+
+.video-container .video-icon-container i {
+	color: #fff;
+	@include font-size(70px);
+}
+
+.video-subtitle  p {
+	color: $green-connect;
+	font-size: 18px;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: $bold;
+}
+
+
+/* Search format
+**********************/
+
+.search-no-results__container {
+	margin: 40px auto;
+}
+
+/* Formatting for Research
+**********************/
+
+.text-align-vert {
+    font-size: 17px;
+    font-size: 1.0625rem;
+    line-height: 28px;
+    vertical-align: middle;
+    position: relative;
+    top: 25%;
+    transform: translateY(-25%);
+}

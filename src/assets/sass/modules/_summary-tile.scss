@@ -1,0 +1,141 @@
+.summary-tile {
+	position: relative;
+	z-index: 0;
+	color: white;
+	@include media(mobile-only) {
+		max-width: 350px;
+	}
+
+	&:after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 0;
+		padding-bottom: (198/280) * 100%;
+
+		@include media(tablet) {
+			padding-bottom: (238/394) * 100%;
+		}
+	}
+}
+
+.summary-tile__empty {
+	background: #CDD2D8;
+	color: #0D1733;
+
+	.summary-tile--content { background: none; }
+}
+
+.summary-tile--content {
+	position: absolute;
+	padding: 60px 20px 20px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	background: linear-gradient(to top, #0D1733 0%, #0D1733 30%, rgba(#0D1733, 0) 100%) left bottom no-repeat;
+	background-size: 100% 150px;
+
+	> h4 {
+		margin: 0 0 15px;
+	}
+
+	> a {
+		text-transform: none;
+		font-size: 14px;
+		display: inline-block;
+
+		+ a {
+			margin-left: 10px;
+		}
+	}
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+}
+
+.summary-tile--bg {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+}
+
+.summary-tile--bg > img {
+	position: absolute;
+	z-index: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	max-width: 150%;
+}
+
+.summary-tile--status-row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+					justify-content: space-between;
+	-webkit-box-align: center;
+			-ms-flex-align: center;
+					align-items: center;
+	margin-bottom: 12px;
+}
+
+.summary-tile--progress {
+	border-radius: 2.5px;
+	-webkit-box-flex: 1;
+			-ms-flex-positive: 1;
+					flex-grow: 1;
+	margin-right: 20px;
+	height: 5px;
+	background-color: white;
+	@include media(tablet) {
+		bottom: 40px;
+	}
+	@include media(mobile-only) {
+		width: 140px;
+	}
+	.summary-tile--inner {
+		background-color: #97B4DD;
+		height: 100%;
+		border-top-left-radius: 2.5px;
+		border-bottom-left-radius: 2.5px;
+	}
+}
+
+.summary-tile--steps {
+	color: white;
+	-ms-flex-negative: 0;
+			flex-shrink: 0;
+	span {
+		color: #97B4DD;
+		letter-spacing: inherit;
+	}
+}
+
+.summary-tile--badge {
+	position: absolute;
+	z-index: 1;
+	top: -10px;
+	right: 10px;
+
+	img {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+.summary-tile--tag {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}

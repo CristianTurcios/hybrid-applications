@@ -1,0 +1,756 @@
+/* Base  
+**********************/
+/* Vertical Rhythm
+**********************/
+/* Fonts Weights
+**********************/
+/* Z-Index
+**********************/
+/* Colors
+**********************/
+/* labels 
+**********************/
+/* Button creation 
+**********************/
+body {
+  background-color: #F2F2F2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 800;
+  adjust-font-size-to: 40px;
+}
+
+h3 {
+  font-weight: 800;
+  adjust-font-size-to: 30px, 2.5;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Media Queries Mixin
+**********************/
+/* Modules
+**********************/
+/* Styles for background in Onefolio Template
+ **********************/
+.full-background {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+  background-color: #000000;
+}
+
+.background-img {
+  opacity: 0.5;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
+.background-overlay {
+  position: absolute;
+  z-index: 2;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.picture-caption {
+  width: 100%;
+  position: absolute;
+  opacity: 0.75;
+  bottom: -40px;
+  left: 0;
+  color: #CCCCCC;
+  font-weight: 300;
+}
+
+.theme--fence {
+  background-image: url("../img/global/onefolio-background-pattern.png");
+  background-color: white;
+}
+
+/* Styles for Login Box in Onefolio Template
+ **********************/
+.box {
+  box-sizing: border-box;
+}
+
+.login-box {
+  min-height: 350px;
+  padding: 40px 100px 80px;
+  margin-top: 10vh;
+  margin-bottom: 60px;
+  background-color: #FFFFFF;
+  font-weight: 300;
+}
+.login-box a {
+  font-weight: 700;
+}
+.login-box a:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 40em) {
+  .login-box {
+    padding: 30px 40px 40px;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .login-box {
+    min-height: 650px;
+  }
+}
+
+.heading-logo {
+  max-width: 250px;
+  margin-bottom: 10px;
+}
+
+.login-heading--has-border-bottom {
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.login-options p {
+  color: #666666;
+}
+
+.login-options--has-border-top {
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid #DDDDDD;
+}
+
+/* Styles for Login Box Form
+ **********************/
+.form-item {
+  padding: 15px 0;
+  position: relative;
+}
+.form-item p {
+  line-height: 1em;
+}
+.form-item p img {
+  margin: 0 10px;
+}
+
+.form-input {
+  width: 100%;
+  height: 45px;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid #DDDDDD;
+  text-align: left;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  -webkit-transition-property: all;
+          transition-property: all;
+}
+.form-input:focus {
+  background-color: #FAFAFA;
+  border: 1px solid #CCCCCC;
+  outline: none;
+}
+
+.form-input--error {
+  border: 1px solid #BF360C;
+}
+
+.form-item--condensed {
+  padding: 5px 0;
+}
+
+.label-staylogged {
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.button {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  -webkit-transition-property: all;
+          transition-property: all;
+}
+.button:hover {
+  color: #FFFFFF;
+  opacity: 0.95;
+}
+.button i {
+  font-size: 25px;
+}
+
+.button--has-full-width {
+  width: 100%;
+}
+
+.button--has-full-width-with-margin {
+  width: 95%;
+  margin: 0 5%;
+}
+
+.button--has-orange {
+  background-color: #F35908;
+}
+
+.button--has-blue {
+  padding-top: 10px;
+  background-color: #4A90E2;
+}
+
+/* Styles for Icons
+ **********************/
+.input-icon {
+  height: 25px;
+  width: 25px;
+  display: block;
+  top: 25px;
+  left: 15px;
+  position: absolute;
+  font-size: 25px;
+  opacity: 0.35;
+}
+
+.icon-email {
+  background-image: url("../assets/img/icons/icon-email.svg");
+  background-size: 25px;
+}
+
+.icon-padlock {
+  background-image: url("../assets/img/icons/icon-padlock.svg");
+  background-size: 25px;
+}
+
+.icon-flag {
+  background-image: url("../assets/img/icons/icon-flag.svg");
+  background-size: 25px;
+}
+
+.icon-circle-help {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+  background-image: url("../assets/img/icons/icon-circle-help.svg");
+  background-size: 22px;
+}
+
+.icon-simple-close {
+  height: 8px;
+  width: 8px;
+  display: block;
+  background-image: url("../assets/img/icons/icon-simple-close.svg");
+  background-size: 8px;
+}
+
+/* Styles for Animated Label 
+ **********************/
+.form-label {
+  position: absolute;
+  top: 28px;
+  left: 60px;
+  color: #CCCCCC;
+  font-weight: 300;
+  cursor: text;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s;
+  -webkit-transition-property: all;
+          transition-property: all;
+}
+
+.input--filled .form-label {
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  color: #333333;
+  font-size: 12px;
+}
+
+.input--filled .input-icon {
+  opacity: 1;
+}
+
+/* Styles for Dropdown
+ **********************/
+.dropdown .form-input {
+  color: #CCCCCC;
+  font-weight: 300;
+  padding-top: 10px;
+}
+.dropdown i {
+  top: 10px;
+}
+
+.icon-caret-dropdown {
+  width: 20px;
+  display: block;
+  position: absolute;
+  right: 20px;
+}
+
+.icon-caret-dropdown::after, .icon-caret-dropdown::before {
+  height: 2px;
+  width: 12px;
+  top: 10px;
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #CCCCCC;
+}
+
+.icon-caret-dropdown::after {
+  right: 0;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.icon-caret-dropdown::after, .icon-caret-dropdown::before {
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-transition-property: -webkit-transform;
+          transition-property: transform;
+}
+
+.icon-caret-dropdown::before {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+/* Extract from Bootstrap
+ **********************/
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle:focus {
+  outline: 0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 100%;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #337ab7;
+}
+
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  color: #777777;
+}
+
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+
+.open > .dropdown-menu {
+  display: block;
+}
+
+.open > a {
+  outline: 0;
+}
+
+.dropdown-menu-right {
+  left: auto;
+  right: 0;
+}
+
+.dropdown-menu-left {
+  left: 0;
+  right: auto;
+}
+
+.dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #777777;
+  white-space: nowrap;
+}
+
+.dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+
+.pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: "";
+}
+
+.dropup .dropdown-menu,
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 2px;
+}
+
+/* Styles for Onefolio Form Errors
+ **********************/
+.form-item--error-container {
+  padding-top: 0;
+  height: auto;
+}
+
+.box-error {
+  padding: 20px 25px 5px;
+  background: #FFCCBC;
+  border-radius: 5px;
+}
+.box-error p {
+  color: #BF360C;
+}
+.box-error p a {
+  display: inline;
+  color: #BF360C;
+}
+
+.close-action {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
+/* Styles for Onefolio Terms & conditions
+ **********************/
+.form-item--has-border {
+  border: 1px solid #CCCCCC;
+}
+
+.form--terms {
+  margin-top: 20px;
+}
+
+.form-item--terms {
+  border: 1px solid #CCCCCC;
+  padding: 0 20px 20px;
+  height: 380px;
+  overflow: auto;
+}
+@media only screen and (max-width: 40em) {
+  .form-item--terms {
+    height: 210px;
+  }
+}
+.form-item--terms h2 {
+  font-size: 1.1em;
+  margin: 20px 0;
+}
+.form-item--terms p {
+  line-height: 1.35em;
+}
+
+.label-acceptterms {
+  display: inline;
+  cursor: pointer;
+  font-weight: 300;
+  color: #666666;
+}
+
+/* Styles for Onefolio Footer
+ **********************/
+.wrapper {
+  position: relative;
+  height: auto;
+}
+
+.footer--has-dark-background {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  height: auto;
+  padding: 40px 0;
+  z-index: 100;
+  border-top: 2px solid #222222;
+}
+.footer--has-dark-background li {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.footer--has-dark-background li a {
+  color: #CCCCCC;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s;
+  -webkit-transition-property: all;
+          transition-property: all;
+}
+.footer--has-dark-background li a:hover {
+  background-color: #000000;
+}
+.footer--has-dark-background .copyright {
+  color: #666666;
+}
+
+/* Styles for Onefolio Loaders
+ **********************/
+.content-loader {
+  max-width: 60px;
+  /*Remove when use loader as a module*/
+  padding-top: 220px;
+  height: 450px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 40em) {
+  .content-loader {
+    padding-top: 100px;
+  }
+}
+.content-loader:after {
+  position: absolute;
+  display: block;
+  content: '';
+  clear: both;
+}
+.content-loader .dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 6px;
+  margin-top: 2px;
+  border-radius: 50%;
+  background-color: #666666;
+  opacity: 0;
+  -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.content-loader .dot:nth-child(2) {
+  width: 14px;
+  height: 14px;
+  margin-top: 0;
+  -webkit-animation-delay: .12s;
+          animation-delay: .12s;
+}
+.content-loader .dot:nth-child(3) {
+  -webkit-animation-delay: .24s;
+          animation-delay: .24s;
+}
+.content-loader .dot.orange {
+  background-color: #F35908;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    opacity: .15;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  24% {
+    opacity: 1;
+    -webkit-transform: scale(1.2, 0.2);
+            transform: scale(1.2, 0.2);
+  }
+  48% {
+    opacity: .15;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: .15;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  24% {
+    opacity: 1;
+    -webkit-transform: scale(1.2, 0.2);
+            transform: scale(1.2, 0.2);
+  }
+  48% {
+    opacity: .15;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+/* Bar loader
+**********************/
+.bar-loader {
+  width: 0px;
+  height: 8px;
+  position: absolute;
+  top: 100px;
+  background: -webkit-linear-gradient(right, #F35908, rgba(255, 255, 255, 0));
+  background: linear-gradient(to left, #F35908, rgba(255, 255, 255, 0));
+  -webkit-animation: bar 1s ease-in forwards, via 1.5s ease-out forwards;
+          animation: bar 1s ease-in forwards, via 1.5s ease-out forwards;
+}
+
+@-webkit-keyframes bar {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes bar {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-webkit-keyframes via {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes via {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* Shame on you and your Code
+**********************/
+/* You know what this does. Repeat yourself "I need to code better CSS"
+ **********************/
+/* Hack for full height in all the pages. This is created because Angular creates a single div as a container for all the layout.
+ **********************/
+#main-content {
+  height: 100%;
+  padding-top: 1px;
+  margin-top: -1px;
+}

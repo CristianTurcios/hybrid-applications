@@ -1,0 +1,117 @@
+[
+	{
+		"domain": "unitec.edu.hn",
+		"acronym": "CEUTEC",
+		"src": "/assets/images/universities/ceutec/logo-color-ceutec.png"
+	},
+	{
+		"domain": "ceutec.edu.hn",
+		"acronym": "UNITEC",
+		"src": "/assets/images/universities/liu/logo-color-unitec.png"
+	},
+	{
+        "domain": "my.uvm.edu.mx",
+        "acronym": "UVM-MEX",
+        "src": "/assets/images/universities/uvm-mex/logo-color-uvm-mex.png"
+    },
+    {
+        "domain": "my.unitec.edu.mx",
+        "acronym": "UNITEC-MX",
+        "src": "/assets/images/universities/unitec-mex/logo-color-unitec-mex.png"
+    },
+	{
+		"domain": "unitec.edu",
+		"acronym": "UNITEC",
+		"src": "/assets/images/universities/liu/logo-color-unitec.png"
+	},
+	{
+		"domain": "waldenu.laureatelab.net",
+		"acronym": "Walden",
+		"src": null
+	},
+	{
+		"domain": "anhembi.br",
+		"acronym": "UNAM",
+		"src": null
+	},
+	{
+		"domain": "apm.edu.au",
+		"acronym": "UOR",
+		"src": null
+	},
+	{
+		"domain": "bilgi.edu.tr",
+		"acronym": "IBU",
+		"src": "/assets/images/universities/ibu/logo-color-ibu.png"
+	},
+	{
+		"domain": "billyblue.com.au",
+		"acronym": "IBU",
+		"src": "/assets/images/universities/ibu/logo-color-ibu.png"
+	},
+	{
+		"domain": "billyblue.edu.au",
+		"acronym": "IBU",
+		"src": "/assets/images/universities/ibu/logo-color-ibu.png"
+	},
+	{
+		"domain": "bits-laureate.de",
+		"acronym": "bits",
+		"src": "/assets/images/universities/bits/logo-color-bits.png"
+	},
+	{
+		"domain": "brisbane.think.edu.au",
+		"acronym": "THINK",
+		"src": "/assets/images/universities/think/logo-color-think.png"
+	},
+	{
+		"domain": "bsp.edu.br",
+		"acronym": "BSP",
+		"src": "/assets/images/universities/bsp/logo-bsp.png"
+	},
+	{
+		"domain": "btk-laureate.de",
+		"acronym": "BTKUAS",
+		"src": "/assets/images/universities/btkuas/logo-color-btkuas.png"
+	},
+	{
+		"domain": "canarias.universidadeuropea.es",
+		"acronym": "UEC",
+		"src": "/assets/images/universities/uec/logo-color-uec.png"
+	},
+	{
+		"domain": "cedepe.com.br",
+		"acronym": "CBS",
+		"src": null
+	},
+	{
+		"domain": "cibertec.pe",
+		"acronym": "CIBERTEC",
+		"src": null
+	},
+	{
+		"domain": "corp.laureate.net",
+		"acronym": "LIU",
+		"src": "/assets/images/universities/liu/logo-color-liu.png"
+	},
+	{
+		"domain": "laureate-germany.de",
+		"acronym": "LIU",
+		"src": "/assets/images/universities/liu/logo-color-liu.png"
+	},
+	{
+		"domain": "laureate.ch",
+		"acronym": "LIU",
+		"src": "/assets/images/universities/liu/logo-color-liu.png"
+	},
+	{
+		"domain": "laureate.net",
+		"acronym": "LIU",
+		"src": "/assets/images/universities/liu/logo-color-liu.png"
+	},
+	{
+		"domain": "laureatelab.net",
+		"acronym": "LIU",
+		"src": "/assets/images/universities/liu/logo-color-liu.png"
+	}
+]

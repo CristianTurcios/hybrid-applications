@@ -1,0 +1,183 @@
+
+.onefaculty-homepage {
+    color: $white;
+    p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .featured_path {
+        display: none;
+        @include media(desktop-s) {
+            display: inline-block;
+        }
+    }
+}
+.onefaculty-start-journey {
+    background-image: url('/assets/images/homepage/homepage-pre-signed-world.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 20px;
+    .onefaculty-start-journey--passport {
+        display: none;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .onefaculty-start-journey--passport-top {
+        display: inline-block;
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+    }
+    .passport {
+        display: inline-block;
+        max-width: 272px;
+        width: 50%;
+    }
+    @include media(desktop-s) {
+        height: 480px;
+        .passport {
+            display: inline-block;
+            width: auto;
+        }
+        .onefaculty-start-journey--passport {
+            display: inline-block;
+        }
+        .onefaculty-start-journey--passport-top {
+            display: none;
+        }
+    }
+    .onefaculty-start-journey--info {
+        margin-top: 70px;
+    }
+
+}
+.onefaculty-connect {
+    background-image: url('/assets/images/homepage/connect.jpg');
+    background-position: 40% center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: auto;
+    padding-bottom: 77px;
+    padding-top: 100px;
+		@include media(tablet) {
+	    padding-top: 180px;
+			background-size: cover;
+			background-position: center;
+		}
+    @include media(desktop-s) {
+        height: 580px;
+    }
+}
+.onefaculty-teaching-pathways {
+    background-image: url('/assets/images/homepage/teaching-pathways.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 70px;
+    padding-top: 60px;
+    @include media(desktop-s) {
+        min-height: 680px;
+    }
+
+		h1 {
+			margin-bottom: 17px;
+		}
+
+    > .container > p {
+      margin-bottom: 40px;
+    }
+}
+.onefaculty-research-toolkits {
+    background-image: url('/assets/images/homepage/research-toolkits.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 70px;
+    padding-top: 60px;
+    @include media(desktop-s) {
+        min-height: 700px;
+    }
+
+		h1 {
+			margin-bottom: 17px;
+		}
+
+    > .container > p {
+      margin-bottom: 40px;
+    }
+}
+.onefaculty-connect-with-peers {
+    background-image: url('/assets/images/homepage/connect-with-peers.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 70px;
+    padding-top: 60px;
+		color: #0D1733;
+
+    > .container > p {
+      margin-bottom: 40px;
+    }
+
+		h1 {
+			margin-bottom: 17px;
+		}
+
+		.homepage--card,
+		.card-resource-content__paper { margin-left: auto; margin-right: auto; }
+
+		.onefaculty-connect-container {
+			margin-bottom: 30px;
+
+			@include media(desktop-s) {
+				margin-bottom: 0;
+				display: flex;
+				margin-left: -24px;
+				padding-right: 30px;
+
+				> * {
+					margin-left: 24px;
+					flex-grow: 1;
+				}
+			}
+		}
+}
+.onefaculty-homepage {
+    .small-icon {
+        display: inline-block;
+        height: 20px;
+        margin-right: 10px;
+        margin-top: 5px;
+        padding: 10px;
+        vertical-align: top;
+        width: 20px;
+    }
+    .small-icon--bb {
+        background-image: url('/assets/images/homepage/icon-bb.svg');
+    }
+    .small-icon--play {
+        background-image: url('/assets/images/homepage/icon-play.svg');
+    }
+    .small-icon--picture {
+        background-image: url('/assets/images/homepage/icon-picture.svg');
+    }
+    .small-icon--text {
+        background-image: url('/assets/images/homepage/icon-text.svg');
+    }
+    .card-item {
+        font-family: $Gibson;
+        font-weight: $regular;
+        display: inline-block;
+        margin-bottom: 10px;
+        vertical-align: sub;
+        width: calc(100% - 60px);
+    }
+}
+.card-ceneterd {
+    text-align: center;
+}

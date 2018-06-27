@@ -1,0 +1,1479 @@
+
+/* Cards for OneFaculty
+**********************/
+
+
+.card-communities-big .tn-holder,
+.card--communities--dashboard .tn-holder,
+.card__cover{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+
+.card-communities-big .card-content,
+.card--communities--dashboard .card-content {
+	position: relative;
+	padding: 40px 30px 25px 30px;
+	font-size: 90%;
+	height: 50%;
+}
+
+.card-content {
+	position: relative;
+	.community-description {
+		color: #868686;
+		font-weight: 200;
+		font-size: 0.9em;
+		height: 36px;
+		overflow: hidden;
+	}
+}
+
+.card-content i.icon-arrowright {
+	right: 0;
+	border: 25px;
+	position: absolute;
+	bottom: 15px;
+}
+
+.card-content .link--button {
+	display: none;
+}
+
+.card-content .link--button i {
+	color: #7289AF;
+	font-size: 55px;
+}
+
+.card-communities-big .card-content a,
+.card--communities--dashboard .card-content a {
+	color: #333;
+	text-align: center;
+}
+
+.card-communities-big .card__category,
+.card--communities--dashboard .card__category {
+	position:  absolute;
+	top: 85%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.card-communities-big .card__category,
+.card--communities--dashboard .card__category span {
+	display: inline;
+	background-color: $green-connect;
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 13px;
+	letter-spacing: 2px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.card-communities-big h4, .card-communities-big .card-content,
+.card--communities--dashboard h4,
+.card--communities--dashboard .card-content {
+	color: #7289AF;
+}
+
+.card-communities-big {
+	.card__category {
+		margin: auto;
+		width: 150px;
+		position: absolute;
+		top: -10px;
+		left: 0;
+		right: 0;
+	}
+	.card-short__title,
+	.card-short--subtitle {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	a.button--request-access {
+		max-width: 260px;
+		border-color: #fff;
+		border: solid 1px #c7c7c7;
+		border-radius: 2px;
+		margin: 12px auto 0 auto;
+		color: #619252;
+	}
+
+	a.button--request-access-disabled {
+		max-width: 260px;
+		border-color: #fff;
+		border: solid 1px #ccc;
+		border-radius: 2px;
+		margin: 12px auto 0 auto;
+		color: #ccc;
+		cursor: not-allowed;
+	}
+}
+
+.card-communities-big .link--button {
+	display: none;
+}
+
+.is-logged-in .card-communities-big .link--button {
+	display: block;
+}
+
+
+/* Basic Styles
+**********************/
+
+.card--onefaculty {
+	background: $white;
+	border: 2px solid $gray--light;
+	border-radius: 2px;
+	margin-bottom: 0px;
+	/* box-shadow: 0px 20px 0 -10px rgba(0,0,0,0.15); */
+}
+
+.course-card {
+	.card__content {
+		text-align: center;
+	}
+}
+
+/* Cards in OneFaculty Homepage
+**********************/
+
+.row.search-results-grid {
+	@include media(desktop-s) {
+		margin-top: 30px;
+	}
+}
+
+.card-with-cover--overflowed {
+	min-height: 260px;
+	height: auto;
+	margin: 80px auto 20px auto;
+	text-align: center;
+	@include media(desktop-s) {
+		min-height: 520px;
+		margin: 0 0 100px;
+	}
+	.card__cover {
+		overflow: visible;
+		height: 10px;
+		@include media(desktop-s) {
+			height: 280px;
+			padding: 20px 0;
+		}
+	}
+	.card__content {
+		background-color: transparent;
+		padding: 40px 15px;
+
+	}
+}
+
+.card-with-cover--overflowed {
+	.card__title {
+		font-family: $Gibson;
+		font-weight: $semibold;
+		color: $blue--dark;
+		@include font-size(28px);
+	}
+	.card__description {
+		font-weight: $thin;
+		color: $blue--dark;
+		height: 75px;
+		font-size: 15px;
+		overflow: hidden;
+	}
+}
+
+.card-with-cover--overflowed .card__thumbnailimage {
+	height: 240px;
+	top: 60px;
+	position: absolute;
+	object-fit: initial;
+	z-index: $zIndex-1;;
+}
+
+.card__stat {
+	font-weight: $bold;
+	text-transform: uppercase;
+	color: $white;
+	.card__stat-detail {
+		margin: 10px;
+		font-weight: $light;
+	}
+}
+
+
+.card__avatar {
+	border: solid 10px #ccc;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+}
+
+.card-people--private .card__avatar {
+	background-image: none;
+}
+
+/* Cards for Toolkit in Research Section
+**********************/
+
+.toolkit__item {
+	.card {
+		margin-bottom: 40px;
+		padding: 30px;
+		min-height: 279px;
+		text-align: center;;
+	}
+}
+.card--toolkit {
+	.card__cover {
+		position: relative;
+	}
+
+	.card__content {
+		height: 234px;
+		padding: 40px 30px;
+		position: relative;
+		background-color: #FFFFFF;
+		z-index: 100;
+	}
+
+	.toolkit__item__title {
+		color: $orange--dark;
+		width: 70%;
+		position: absolute;
+		bottom: 70px;
+		left: 15%;
+	}
+
+	.card__labeltext {
+		margin: auto;
+		width: 210px;
+		position: absolute;
+		bottom: 233px;
+		left: 0;
+		right: 0;
+		letter-spacing: 2px;
+		border-radius: 4px;
+		background-color: #68A99D;
+		height: auto;
+		z-index: 99999;
+	}
+}
+
+.toolkit__item__icon {
+	margin: 20px auto 36px auto;
+	height: 100px;
+	width: auto;
+	max-width: 160px;
+}
+
+.toolkit__item__title {
+	font-family: $Gibson;
+	font-weight: $semibold;
+	color: $orange--dark;
+	@include font-size(28px);
+	/*Force text to vertical align */
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 35px;
+}
+
+
+/* Cards for Funding opportunities in Research Section
+**********************/
+
+.funding__item {
+	margin-bottom: 40px;
+	.card {
+		padding: 40px;
+		min-height: 200px;
+		position: relative;
+		text-align: center;
+	}
+}
+
+.funding__item__logo {
+	position: relative;
+	height: 200px;
+	img {
+		margin: auto;
+		max-width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 0;
+	}
+}
+
+
+/* Card textured
+**********************/
+
+.card--textured {
+	padding: 40px;
+	margin: 20px 0 50px;
+	min-height: 475px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border: none;
+	h2 {
+		margin: 40px 0;
+		color: $white;
+		@include font-size(35px);
+	}
+}
+
+.floating-icon {
+	position: absolute;
+	bottom: -10px;
+	right: 10px;
+	display: block;
+	img {
+		opacity: 0.5;
+	}
+}
+
+
+/* Card for Learning Opportunities
+**********************/
+
+.card--learning {
+	min-height: 275px;
+	margin: 20px auto 60px;
+	text-align: center;
+
+	@include media(desktop-s) {
+		min-height: 475px;
+		margin: 20px 0 60px;
+	}
+
+	.card__content {
+		position: relative;
+		height: 205px;
+	}
+
+	.card__title {
+		color: $blue--dark;
+		@include font-size(18px);
+		text-transform: uppercase;
+	}
+
+	.card__subtitle {
+		margin: 10px 0;
+		color: $blue--lighter;
+	}
+
+	.card__footnote {
+		color: $blue--light;
+	}
+
+	.card__labeltext {
+		margin: auto;
+		width: 210px;
+		position: absolute;
+		bottom: 205px;
+		left: 0;
+		right: 0;
+		letter-spacing: 2px;
+		border-radius: 4px;
+		background-color: #B64834;
+		height: auto;
+	}
+}
+
+
+/* Card for Yammer Groups
+**********************/
+
+.search-results-yammer__container {
+	padding: 0;
+}
+
+.card.card-yammergroup {
+	height: 250px;
+	margin-bottom: 35px;
+	width: 100%;
+
+	.tn-holder {
+		height: 140px;
+		background-color: #000;
+
+		.admin-options {
+			position: absolute;
+			top: 10px;
+			width: 100px;
+			right: 10px;
+			text-align: right;
+			z-index: 500;
+			font-size: 14px;
+			a.button-settings {
+				color: #fff;
+				i {
+					font-size: 26px;
+				}
+			}
+			.admin-menu {
+				background-color: #fff;
+				padding: 10px;
+				border: solid 1px #ccc;
+				margin-bottom: 5px;
+				width: 150px;
+				position: absolute;
+				z-index: 999;
+				right: 25px;
+				top: 1px;
+				font-size: 0.9em;
+				li {
+					text-align: left;
+				}
+
+				li a {
+					display: block;
+					color: #5f5f5f;
+					padding: 6px 0;
+
+
+				}
+				li a:hover {
+					color: #000;
+					background-color: #f3f3f3;
+				}
+			}
+		}
+
+	}
+
+	.tn-holder img {
+		width: 100%;
+		opacity: 0.7;
+	}
+
+	.card-content {
+		position: relative;
+
+		padding: 10px 3.2%;
+
+		padding: 5% 3.2% 1%;
+
+	}
+
+	.tn-holder h2 {
+		position: absolute;
+		bottom: 8px;
+		z-index: 99;
+		color: #fff;
+		text-transform: none;
+		font-size: 1.5em;
+		left: 2%;
+	}
+
+
+	.card-content {
+		.community-count {
+			li {
+				margin-bottom: 8px;
+			}
+		}
+		.group-details {
+			.card__category, .community-count {
+				font-size: 0.86em;
+				color: #676767;
+			}
+			h5 {
+				margin-bottom: 5px;
+			}
+			i.icon-group {
+				font-size: 1em;
+				padding-right: 9px;
+			}
+			.group-buttons {
+				font-size: 90%;
+				// padding: 10px 0;
+				li {
+					display: inline-block;
+				}
+
+				.button-goto {
+					position: absolute;
+					right: -9px;
+					z-index: 99;
+					width: 35px;
+					display: inline-block;
+					bottom: -7px;
+					height: 50px;
+					font-size: 3em;
+					padding: 0;
+					i.icon-arrowright {
+						font-size: 1em;
+						padding-right: 9px;
+						color: #afafaf;
+						font-weight: 400;
+					}
+				}
+
+			}
+			.button {
+				color: #696969;
+
+				font-weight: 400;
+				font-size: 12px;
+				font-weight: 200;
+				font-size: 12px;
+
+			}
+			.button-primary {
+				background-color: #619252;
+				padding: 4px 15px;
+				margin-right: 6px;
+				color: #fff;
+			}
+
+			.button--ghost {
+				border: solid 1px #ccc;
+				padding: 4px 15px;
+				margin-right: 6px;
+			}
+
+			.button--ghost:hover {
+				background-color: #ccc;
+				color: #fff;
+			}
+		}
+
+	}
+
+
+}
+
+.modal {
+	.card-yammergroup {
+		margin: auto;
+		max-width: 600px;
+		height: 340px;
+		.tn-holder {
+			height: 140px;
+			background-color: #000;
+		}
+		.tn-holder h2 {
+			font-size: 2em;
+			letter-spacing: 0.03em;
+		}
+
+		.group-details {
+			text-align: left;
+		}
+		.group-description {
+			font-size: 0.75em;
+			text-align: left;
+			height: 118px;
+			overflow: hidden;
+		}
+
+		.button--ghost, .button-primary {
+			margin: 0;
+			display: inline-block;
+			width: 100%;
+		}
+	}
+
+}
+
+/* Card for Connections
+**********************/
+
+.onefaculty-view .card-people,
+.row-recommendations .card-people {
+	.card__cover {
+		background-color: #fff;
+		height: auto;
+	}
+	.card__thumbnail--rounded {
+		border: 2px solid $white;
+	}
+	.card__content {
+		height: auto;
+		padding: 10px 20px;
+		top: 30px;
+		@include media(desktop-s) {
+			padding: 0 20px;
+		}
+	}
+	h3.card__title {
+		font-weight: $bold;
+		text-transform: inherit;
+		color: $blue--medium;
+		@include font-size(18px);
+		text-transform: uppercase;
+		@include media(desktop-s) {
+			@include font-size(20px);
+		}
+	}
+	p.card__description,span.card__footnote {
+		color: $blue--light;
+	}
+}
+
+.row-recommendations .card-people {
+	.card__content {
+		top: 30px;
+	}
+}
+
+.search-results__header {
+	font-family: $Gibson;
+	h5.search-results__subtitle {
+		color: $green-connect;
+		font-weight: $bold;
+		text-transform: uppercase;
+		@include font-size(18px);
+	}
+	h2.search-results__title {
+		margin-bottom: 10px;
+		padding: 10px 0 ;
+		color: $blue--dark;
+		border-bottom: 6px solid $gray--light;
+		@include font-size(35px);
+	}
+	p.search-results__intro {
+		font-family: $Lato;
+		color: $blue--dark;
+	}
+}
+
+
+
+
+/* Card for Toolkit
+**********************/
+
+.card--toolkit {
+	min-height: 275px;
+	margin: 20px auto 60px;
+	text-align: center;
+	@include media(desktop-s) {
+		min-height: 425px;
+		margin: 20px 0 60px;
+	}
+	.card__title {
+		color: $blue--dark;
+		@include font-size(20px);
+		overflow: hidden;
+		max-height: 90px;
+	}
+	.card__subtitle {
+		margin: 10px 0;
+		color: $blue--lighter;
+	}
+	.card__footnote {
+		color: $blue--light;
+	}
+	.card__labeltext {
+		margin: auto;
+		width: 210px;
+		position: absolute;
+		bottom: 197px;
+		left: 0;
+		right: 0;
+		letter-spacing: 2px;
+		border-radius: 4px;
+		background-color: $aqua-research;
+		height: auto;
+	}
+}
+
+
+/* Card for Toolkit
+**********************/
+
+.onefaculty-view .card-people {
+	@include media(tablet) {
+		height: 400px;
+		box-shadow: none;
+	}
+	@include media(desktop-s) {
+		height: auto;
+		min-height: 396px;
+	}
+	.card__content {
+		@include media(desktop-s) {
+			position: absolute;
+			top: 174px;
+			width: 100%;
+			height: 100px;
+		}
+	}
+	.button {
+		@include media(desktop-s) {
+			margin: 20px auto 0 auto;
+			max-width: 190px;
+			font-size: 12px;
+			// position: absolute;
+			// bottom: 16px;
+			// left: 0;
+			// right: 0;
+		}
+	}
+	.nav-boxed input[type=radio]:checked + label {
+		color: $white;
+	}
+
+	.card__avatar > img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.card-search--extended-people {
+
+	.card__cover.card__cover--extended {
+		background-color: $white;
+		.button {
+			min-width: 25%;
+		}
+	}
+	.add {
+		border-color: $green-connect;
+		color: $green-connect;
+		&:hover {
+			background-color: $green-connect;
+			color: $white;
+		}
+	}
+	.email {
+		border-color: $orange--dark;
+		color: $orange--dark;
+		&:hover {
+			background-color: $orange--dark;
+			color: $white;
+		}
+	}
+	.close-card .icon-close {
+		color: $orange--dark;
+	}
+	.card__sidebar__subtitle,
+	.card__about__subtitle {
+		font-family: $Gibson;
+		font-weight: $bold;
+		color: $blue--dark;
+		text-transform: uppercase;
+		@include font-size(25px);
+	}
+}
+
+.onefaculty-view {
+	.card-people-checkbox {
+		min-height: 310px;
+		position: relative;
+		margin: 0 0 12px 0;
+		.card-checkbox {
+			position: absolute;
+			right: 10px;
+			top: 5px;
+			input[type=checkbox] {
+				display: none;
+			}
+			input[type=checkbox] + label:after {
+				content: "";
+				border: solid 1px #ccc;
+				display: block;
+				width: 30px;
+				height: 30px;
+				border-radius: 100px;
+				position: absolute;
+				right: 0;
+			}
+			label {
+				display: block;
+				position: absolute;
+				width: 100px;
+				height: 50px;
+				right: 5px;
+				top: 5px;
+				max-width: 100px;
+				cursor: pointer;
+			}
+
+			input[type=checkbox]:checked + label:before {
+				content: "\2713";
+				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.12);
+				font-size: 25px;
+				color: #ffffff;
+				text-align: center;
+				line-height: 15px;
+				background-color:#5eb6e0;
+				border-radius: 100px;
+				width: 30px;
+				height: 30px;
+				display: block;
+				padding-top: 5px;
+				position: absolute;
+				right: 0;
+			}
+		}
+	}
+}
+
+/* Searchbar /  Sidebar Fixes for OneFaculty */
+.navigation-search {
+	overflow: visible;
+	.icon-menu-open {
+		position: absolute;
+		right: 2px;
+		top: 19px;
+	}
+
+	li label {
+		font-size: 0.9em;
+	}
+
+	.item__children > li {
+		min-height: 38px;
+		height: auto;
+		padding-top: 8px;
+		border-bottom: 1px dotted #DDDDDD;
+		font-size: 0.85em;
+	}
+}
+
+
+
+
+.card__thumbnail--rounded--extended {
+	width: 170px;
+	height: 170px;
+	img {
+		object-fit: cover;
+		height: auto;
+		max-height: 100%;
+	}
+
+
+
+
+
+	.card--left-col {
+		height: auto;
+		min-height: 270px;
+	}
+
+}
+
+
+.card-search--extended-people-private {
+	.card__avatar {
+		background-image: none; /*Fix transparent images bug on passport */
+	}
+}
+
+
+
+.user-info-basic {
+	font-size: 18px;
+	color: #656565;
+	font-weight: 200;
+	border-bottom: dotted 1px #ccc;
+	padding: 20px 0;
+	p {
+		margin-bottom: 17px;
+	}
+
+	i {
+		font-size: 20px;
+		color: #CF4127;
+		margin-right: 8px;
+	}
+
+}
+
+a.button.button-primary.action-connect {
+	padding: 9px 5px;
+	display: inline-block;
+	width: 93%;
+	margin: 20px auto 5px auto;
+}
+
+.buttons-col {
+	text-align: center;
+
+	a.actionbutton {
+		display: inline-block;
+		font-size: 13px;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 0.05em;
+		margin-top: 19px;
+		padding: 9px 5px;
+		width: 100%;
+
+		i {
+			font-size: 20px;
+			margin-right: 11px;
+		}
+	}
+}
+
+a.actionbutton:hover {
+	background-color: #f3f3f3;
+	color: #20283b;
+}
+
+.buttons-col .button {
+	margin: auto;
+	display: block;
+	text-align: center;
+	float: none;
+}
+
+#communities .card-communities-big {
+	max-width: 600px;
+	height: 430px;
+	.tn-holder {
+		height: 225px;
+		img {
+			opacity: 0.95;
+			/* transition: opacity 0.35s; */
+			/* transform: scale3d(1.05, 1.05, 1); */
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		img:hover {
+			opacity: 0.82;
+		}
+	}
+}
+
+
+/* Card with Orange Top, used in Teaching
+**********************/
+.card-orangetop {
+	background: $white;
+	box-shadow: 0 1px 4px 1px rgba(0,0,0,0.20);
+	border-radius: 4px;
+	margin-bottom:40px;
+	position: relative;
+	overflow: hidden;
+	padding:27px 20px;
+	&:before {
+		position: absolute;
+		top:0;
+		left:0;
+		right:0;
+		height:4px;
+		content:"";
+		display: block;
+		background-color:#F05C22;
+	}
+	@include media(tablet) {
+		padding:27px 37px 15px;
+	}
+}
+.card-orangetop > *:last-child {
+	margin-bottom:0;
+}
+.card-orangetop__title {
+	@include font-size(24px);
+	line-height: (27/24);
+	font-weight: 300;
+	font-family: $Gibson;
+	color:#0D1733;
+	margin-bottom:10px;
+	@include media(tablet) {
+		padding-right:150px;
+		@include font-size(34px);
+		line-height: (36/34);
+		margin-bottom:17px;
+	}
+}
+.card-orangetop__description {
+	@include font-size(16px);
+	line-height: (24/16);
+	margin-bottom:20px;
+}
+.card-orangetop__connections {
+	margin:0 0 20px;
+	font-family: $Gibson;
+	@include font-size(14px);
+	line-height: (18/14);
+	dt {
+		display: inline-block;
+		margin-right:-10px;
+		border-radius: 10px;
+		border:1px solid $white;
+		width:20px;
+		height:20px;
+		overflow: hidden;
+		position: relative;
+		z-index: 10;
+		&:last-of-type {
+			margin-right:2px;
+		}
+		&:nth-child(2) {
+			z-index: 9;
+		}
+		&:nth-child(3) {
+			z-index: 8;
+		}
+		&:nth-child(4) {
+			z-index: 7;
+		}
+		&:nth-child(5) {
+			z-index: 6;
+		}
+		&:nth-child(6) {
+			z-index: 5;
+		}
+	}
+	img {
+		width:20px;
+		height:20px;
+		display: block;
+	}
+	dd {
+		display: inline-block;
+		vertical-align: top;
+		margin-top:2px;
+	}
+}
+.card-orangetop__more {
+	font-family: $Gibson;
+	font-weight: 600;
+	text-align: center;
+	padding: 10px;
+	display: block;
+	border: 1px solid #C33D1C;
+	border-radius: 4px;
+	@include font-size(14px);
+	line-height: (16/14);
+	color: #C33D1C;
+	transition: background-color 0.1s ease-out, color 0.1s ease-out;
+	&:hover, &:focus {
+		color:$white;
+		background-color:#C33D1C;
+	}
+	@include media(tablet) {
+		display: inline-block;
+		padding: 10px 30px;
+		margin-bottom:0;
+	}
+}
+.card-orangetop__more--learn {
+	margin-bottom:40px;
+	@include media(tablet) {
+		position: absolute;
+		top:27px;
+		right:37px;
+	}
+}
+.card-pathways {
+	background-color: #49556d;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 20px;
+	margin: 0 -20px 30px -20px;
+	margin-bottom: 30px;
+	@include media(tablet) {
+		padding:30px;
+		margin: 20px -35px 15px -35px;
+		min-height: 332px;
+		&:after {
+			content:" ";
+			display: table;
+			clear: both;
+		}
+	}
+
+	pathway-small-card:last-child .card-pathway {
+		margin-bottom: 0;
+	}
+}
+.card-orangetop__title + .card-pathways {
+	margin-top:20px;
+	@include media(tablet) {
+		margin-top:30px;
+	}
+}
+.card-pathway {
+	display: block;
+	background-color:$white;
+	padding:15px 20px 20px;
+	color:#0D1733;
+	@include font-size(14px);
+	line-height: (18/14);
+	margin-bottom:20px;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000px;
+	-webkit-transform-style: preserve-3d;
+	transform: translateZ(0);
+	transition: box-shadow 0.15s ease-out, transform 0.15s cubic-bezier(.33,.66,.66,1);
+
+	&:hover, &:focus {
+		transform: translate3d(0,-3px,0);
+		box-shadow: 0 1px 4px 1px rgba(0,0,0,0.20);
+		.card-pathway__learnmore {
+			text-decoration: none;
+		}
+	}
+	@include media(tablet) {
+		padding:25px 30px 30px;
+		max-width: 550px;
+		width:100%;
+		float:right;
+		clear:left;
+		position: relative;
+	}
+}
+.card-pathway__meta {
+	margin-bottom:10px;
+}
+.card-pathway__title {
+	margin-bottom:10px;
+	@include media(tablet) {
+		max-width:370px;
+	}
+}
+.card-pathway__badges {
+	img {
+		width: 40px;
+		height: 41px;
+		display: inline-block;
+		margin: 0 0 5px 0;
+	}
+	@include media(tablet) {
+		position: absolute;
+		top:-16px;
+		right:23px;
+		text-align: center;
+		img {
+			width:60px;
+			height: 62px;
+			margin:0 0 4px 6px;
+			&:first-child {
+				margin-left:0;
+			}
+		}
+	}
+}
+
+.card-pathway__badges--position {
+	top: 37px;
+	z-index: 200;
+}
+
+#program--home {
+	.card-pathway__badges--position {
+		@include media(mobile-only) {
+			figcaption {
+				display: none;
+			}
+			position: absolute;
+			right: 10px;
+			top: 45px;
+		}
+	}
+}
+
+.program--intro-copy {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.program__pathway-image {
+	@include media(mobile-only) {
+		margin-bottom: 15px;
+	}
+}
+
+.card-pathway__learnmore {
+	@include font-size(14px);
+}
+.card-orangetop > .card-pathways:last-child {
+	margin-bottom: -27px;
+}
+
+.top-info {
+	padding: 30px 0;
+}
+
+.brecources {
+	.card-resource-content {
+		border-top: 4px solid $cr-gray;
+	}
+	.locked-modules {
+		text-align: center;
+	}
+	.locked-modules--icon {
+		margin-top: -3px;
+	}
+	.vertical-line {
+		background: $cr-gray;
+		height: 50px;
+		margin: 10px auto;
+		width: 1px;
+	}
+	.locked-modules-middle {
+		background: $cr-locked-modules;
+		border-radius: 20px;
+		color: #fff;
+		display: inline;
+		font-size: 14px;
+		font-weight: 200;
+		padding: 7px 20px;
+		vertical-align: middle;
+	}
+	.card-resource__resource-border{
+		padding: 0px 25px 20px 25px;
+		border: 1px solid $cr-gray;
+		margin-bottom: 100px;
+		.card-resource__pathway {
+		  height: auto;
+		  padding-top: 30px
+		}
+		@include media(mobile-only) {
+			border: 0;
+			margin-bottom: 0;
+		}
+	}
+	.card-resource__resource-no-border {
+		border: 0;
+	}
+	.badge-logo {
+		position: absolute;
+		right: 14px;
+		top: 8px;
+		width: 60px;
+		@include media(mobile-only) {
+			right: 25px;
+			top: -4px;
+			width: 50px;
+		}
+	}
+	.badge-name {
+		color: #0D1733;
+		float: left;
+		font-size: 34px;
+		line-height: 36px;
+		margin-bottom: 5px;
+		margin-top: 10px;
+		padding-right: 75px;
+		@include media(mobile-only) {
+			font-size: 24px;
+			line-height: 27px;
+			margin-left: 10px;
+		}
+	}
+	.card-resource__resource-info {
+		display: block;
+	}
+
+}
+
+
+/* Card for Program
+**********************/
+.onefaculty-view .card-program__pathways {
+	margin-top: 40px;
+}
+.onefaculty-view .card-program {
+	.program__resource {
+		margin-top: 5px;
+	}
+
+	.card__button-container {
+		margin-top: 20px;
+	}
+}
+.program__pathway-image {
+	width: 100%;
+}
+.badge-icon {
+	color: #0D1733;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-align: center;
+	.badge-text {
+		display: none;
+		@include media(desktop-s) {
+			display: block;
+		}
+	}
+}
+
+/* Card for Resource
+**********************/
+.teaching__resource {
+	.card-resource__button {
+		width: 150px;
+		float: right;
+		margin-bottom: 20px;
+		text-transform: capitalize;
+		font-weight: $regular;
+	}
+	.card-resource__title {
+		color: black;
+		text-transform: capitalize;
+		margin-bottom: 10px;
+	}
+	.card-resource__authors-container {
+		margin-bottom: 40px;
+	}
+	.card-resource__downloads {
+		overflow: auto;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		.one-hdg {
+			margin-bottom: 20px;
+		}
+		.card-resource__downloads--link {
+			margin-top: 10px;
+			a {
+				margin-bottom: 10px;
+				text-decoration: underline;
+				display: inline-block;
+				width: calc(100% - 30px);
+
+			}
+			img {
+				vertical-align: top;
+			}
+
+		}
+		.card-resource__downloads--title {
+			font-size: 15px;
+		}
+	}
+}
+
+/* Find Resoureces
+**********************/
+
+.find-resoureces__container {
+	background: #186DB3;
+	color: $white;
+	padding: 60px 0;
+	h1 {
+		font-size: 34px;
+		margin-bottom: 10px;
+		font-weight: 300;
+	}
+	.find-resoureces__description {
+		font-size: 16px;
+		font-weight: 300;
+	}
+	.find-resoureces__search {
+		margin: 30px 0;
+	}
+	.find-resoureces__bottom {
+		margin-bottom: 15px;
+		a {
+			color: $white;
+			font-size: 16px;
+			line-height: (24/16);
+			font-weight: 400;
+			margin: 5px 0;
+			text-decoration: underline;
+		}
+	}
+
+	.find-resoureces_sub-title {
+		margin-bottom: 10px;
+	}
+
+	.find-resoureces_sub-title img {
+		margin-right: 5px;
+	}
+}
+
+.card-resource-content {
+	-moz-box-shadow: 0px 1px 4px 1px $cr-shadow;
+	-webkit-box-shadow: 0px 1px 4px 1px $cr-shadow;
+	background-color: $white;
+	border-radius: 4px;
+	border-top: 4px solid $cr-orange1;
+	box-shadow: 0px 1px 4px 1px $cr-shadow;
+	font-family: $Gibson;
+	padding: 30px;
+	.card-resource__sub-title {
+		color: $cr-pimary;
+		font-size: 12px;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+	.card-resource__title {
+		color: $cr-pimary;
+		font-size: 18px;
+	}
+	.card-resource__topic {
+		color: $cr-pimary;
+		font-size: 16px;
+	}
+	.card-resource__button--resource {
+		border-radius: 4px;
+		border: 1px solid $cr-orange2;
+		color: $cr-orange2;
+		font-weight: 600;
+		text-transform: none;
+		&:hover {
+			border: 1px solid $orange--dark;
+		}
+		&.disabled {
+			background-color:transparent !important;
+			border-color:#CDD2D8 !important;
+			color:#CDD2D8 !important;
+			cursor: default;
+		}
+		@include media(mobile-only) {
+			width: 100%;
+		}
+	}
+	.card-resource__title-bb-box {
+		border-radius: 4px;
+		border: 2px solid $cr-bb-border;
+		font-size: 11px;
+		margin-right: 5px;
+		padding: 3px 2px 1px 2px;
+		vertical-align: middle;
+		@include media(mobile-only) {
+			float: right;
+			text-transform: capitalize;
+		}
+	}
+	.card-resource__topic-dot {
+		margin-left: 10px;
+		margin-right: 15px;
+	}
+	.card-resource__resource-info {
+		display: none;
+		font-size: 12px;
+		margin-top: 5px;
+		text-align: center;
+	}
+}
+
+.cards-grid .card--search-compact .card-content h4 {
+	text-transform: none;
+}
+.cards-grid.card-resource__pathway .card.card--search-compact {
+	@include media(desktop-m) {
+		margin:20px 1% 0;
+	}
+}
+
+/* Teaching card title overlap */
+pathway-card h3 {
+	max-width: 80%;
+}

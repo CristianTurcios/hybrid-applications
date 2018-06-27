@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "online-learning-explorer-badge",
+    "name": "Online Learning Explorer Badge",
+    "description": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/badges/badge-online-explorer.svg",
+    "pathway_regysis_id": 2307,
+    "pathway_name": "Introduction to Online Learning",
+    "pathway_image": "/assets/images/dashboard/card-1.png"
+  },
+  {
+    "slug": "online-learning-explorer-badge",
+    "name": "Online Learning Instructor Badge",
+    "description": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/badges/badge-online-instructor.svg",
+    "pathway_regysis_id": 2308,
+    "pathway_name": "Teaching Structure and Function",
+    "pathway_image": "/assets/images/dashboard/card-2.png"
+  },
+  {
+    "slug": "online-learning-explorer-badge",
+    "name": "Online Learning Explorer Badge",
+    "description": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/badges/badge-online-instructor.svg",
+    "pathway_regysis_id": 2309,
+    "pathway_name": "Online Learning Explorer",
+    "pathway_image": "/assets/images/dashboard/card-2.png"
+  },
+  {
+    "slug": "blended-learning-designer-badge",
+    "name": "Blended Learning Designer Badge",
+    "description": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/badges/badge-blended-designer.svg",
+    "pathway_regysis_id": 2313,
+    "pathway_name": "Blended Learning Designer",
+    "pathway_image": "/assets/images/dashboard/card-1.png"
+  },
+  {
+    "slug": "blended-learning-designer-badge",
+    "name": "Blended Learning Instructor Badge",
+    "description": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/badges/badge-blended-designer.svg",
+    "pathway_regysis_id": 2314,
+    "pathway_name": "Blended Learning Instructor",
+    "pathway_image": "/assets/images/dashboard/card-1.png"
+  },
+  {
+    "slug": "blended-learning-instructor-badge",
+    "name": "Online Learning Designer Badge",
+    "description": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/badges/badge-blended-instructor.svg",
+    "pathway_regysis_id": 2315,
+    "pathway_name": "Online Learning Designer",
+    "pathway_image": "/assets/images/dashboard/card-2.png"
+  },
+  {
+    "slug": "online-learning-designer-badge",
+    "name": "Online Learning Designer Badge",
+    "description": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/badges/badge-online-designer.svg",
+    "pathway_regysis_id": null,
+    "pathway_name": "Online Learning Designer",
+    "pathway_image": "/assets/images/dashboard/card-2.png"
+  },
+  {
+    "slug": "online-learning-developer-badge",
+    "name": "Online Learning Developer Badge",
+    "description": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/badges/badge-online-developer.svg",
+    "pathway_regysis_id": null,
+    "pathway_name": "Online Learning Developer",
+    "pathway_image": "/assets/images/dashboard/card-2.png"
+  },
+  {
+    "slug": "online-learning-explorer-badge",
+    "name": "Online Learning Explorer Badge",
+    "description": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/badges/badge-online-explorer.svg",
+    "pathway_regysis_id": null,
+    "pathway_name": "Online Learning Explorer",
+    "pathway_image": "/assets/images/dashboard/card-2.png"
+  },
+  {
+    "slug": "online-learning-instructor-badge",
+    "name": "Online Learning Instructor Badge",
+    "description": "Lorem ipsum dolor sit amet.",
+    "image": "/assets/images/badges/badge-online-instructor.svg",
+    "pathway_regysis_id": null,
+    "pathway_name": "Online Learning Instructor",
+    "pathway_image": "/assets/images/dashboard/card-2.png"
+  }
+]

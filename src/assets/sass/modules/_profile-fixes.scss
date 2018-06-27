@@ -1,0 +1,237 @@
+.sidebar-onboard {
+	background-color: $blue;
+}
+
+.sidebar--passport-profile {
+	@extend .sidebar-onboard;
+}
+
+.passport-onefaculty-container {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: $blue--medium;
+	overflow: auto;
+	.sidebar-profile {
+		/*position: relative;
+		top: 90px;*/
+		background: transparent;
+	}
+	.board-profile {
+		background-color: #FAFAFA;
+	}
+	.sidebar-profile__experience-info {
+		padding-top: 20px;
+		border-top: 1px dotted $blue--light;
+		border-bottom: 1px dotted $blue--light;
+	}
+	.sidebar-profile__email {
+		color: $blue--lighter;
+	}
+}
+
+.passport-onefaculty-container .sidebar-profile__avatar {
+	top: -3px;
+	max-width: 200px;
+	/*width: 105%;*/
+	text-align: center;
+	margin: auto;
+	position: relative;
+}
+
+
+.sidebar-profile__logo-passport {
+  width: auto;
+}
+
+.sidebar-profile__full-name {
+	margin-top: 20px;
+	color: $white;
+}
+
+.block-profile__title {
+	color: $blue--medium;
+}
+
+.passport-onefaculty-container .sidebar-profile .button-camera,
+.passport-onefaculty-container .sidebar-profile .button-add-connection {
+	height: 40px;
+	padding: 8px 0;
+	position: absolute;
+	left: 68%;
+	top: -6px;
+	background-color: $blue--dark;
+	border-radius: 50px;
+	z-index: 99;
+}
+
+.sidebar-profile__profilepic {
+	height: 160px;
+	margin: 20px auto 0;
+	border-color: $blue--dark;
+    box-shadow: 0 0 1px 0px $blue--dark inset, 0 0 1px 0px $blue--dark;
+}
+
+.sidebar-profile__logo-institution {
+  max-width: 160px;
+  margin-bottom: 10px;
+}
+
+.block-profile-interests .nav-tags-menu a {
+	margin: 0 5px 5px 0;
+}
+
+.sidebar-profile__experience-info h3 {
+	color: $blue--lighter;
+	font-weight: 300;
+	line-height: 22px;
+	font-size: 14px;
+	margin: 10px auto;
+	letter-spacing: 1px;
+}
+
+i.icon-linkedin-isolated {
+	/* display: none; */
+}
+
+.passport-onefaculty-container .board-with-sidebar--profile {
+	background: transparent;
+}
+
+.passport-onefaculty-container .board-profile {
+	@include media(tablet) {
+		height: auto;
+		padding: 40px 30px;
+	/*	margin: 50px auto;*/
+	}
+	/*@include media(desktop-s) {
+		margin: 50px auto 0;
+	}*/
+}
+
+.passport-onefaculty-container .sidebar-profile__menu ul {
+	background-color: transparent;
+}
+
+.passport-onefaculty-container .sidebar-profile__menu li {
+  @include media(desktop-s) {
+    background-color: rgba(255,255,255,.07);
+  }
+}
+
+.passport-onefaculty-container .sidebar-profile__linkedin-info {
+	/* display: none; //Hide Linkedin repetition */
+}
+
+.passport-onefaculty-container .sidebar-profile__linkedin-info .icon-linkedin-isolated {
+  display: none;
+}
+
+.passport-onefaculty-container .sidebar-profile__menu li a {
+	color: $blue--lighter;
+}
+
+.passport-onefaculty-container .sidebar-profile__menu li a.selected {
+	color: $white;
+}
+
+.sidebar-profile__progress-details__content {
+  background-color: #334161;
+}
+
+.sidebar-profile__progress-details__description {
+  color: $white;
+}
+
+.sidebar-profile__progress-info .progress-circle__value {
+  color: #d0cfcf;
+}
+
+.sidebar-profile__progress-details__close {
+  color: #027CB8;
+}
+
+.sidebar-profile__profilepic-upload .upload-pic--manual {
+  color: #334161;
+  &:hover {
+    color: $white;
+    background-color: #334161;
+  }
+}
+
+.sidebar-profile .progress-circle__title {
+  color: #7F8EAC;
+}
+
+.sidebar-profile__progress-details__checklist li:after {
+  background-color: #7F8EAC;
+}
+
+.sidebar-profile__progress-details {
+  color: $white;
+}
+
+.block-portfolio-item__title {
+  color: $white;
+  text-transform: none;
+}
+
+.footer {
+	width: 100%;
+	clear: both;
+}
+
+/* passport interests modal **/
+
+.passport-onefaculty-container .modal.modal-interests {
+  z-index: $zIndex-2;
+}
+
+/* passport creator steps **/
+
+.passport-onefaculty {
+	.sidebar--passport-interests {
+		background-color: #007ab8;
+		}
+	.nav-interactive-bubles-menu a.selected {
+		background-color: #007ab8;
+		}
+	.onboard-content--passport-interests .nav-horizontal-tab-menu a.selected {
+	background-color: #007ab8;
+	border: 0;
+	}
+}
+
+.block-profile__edit{
+  color: #027CB8;
+}
+
+/* passport location fixes **/
+.location-content {
+  @include media(tablet) {
+    background-size: 100% 280px;
+  }
+  @include media(desktop-l) {
+    background-size: 310px 280px;
+  }
+}
+
+/* modal for upload/crop fixes **/
+
+.modal--uploader .modal__content {
+  width: 50vw;
+}
+
+.modal--uploader .button.button.button-icon {
+  margin-top: 20px;
+}
+
+.modal--uploader .modal__toolbar {
+  min-height: 60px;
+  background-color: $blue;
+}
+
+button.button.button-white.button--ghost {
+  width: auto;
+  min-width: 100px;
+}

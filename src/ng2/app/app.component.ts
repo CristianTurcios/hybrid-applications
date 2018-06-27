@@ -1,5 +1,4 @@
-import { Component, Inject } from '@angular/core';
-import { PHONE_SERVICE } from 'ng2/app/phone.service';
+import { Component} from '@angular/core';
 import { UpgradeModule } from '@angular/upgrade/static';
 
 @Component({
@@ -10,22 +9,10 @@ import { UpgradeModule } from '@angular/upgrade/static';
 export class AppComponent {
   title = 'app';
 
-   phones: any[] = [];
-
 
    constructor(private upgrade: UpgradeModule) { }
 
     ngOnInit() {
-      // this.upgrade.bootstrap(document.body, ['phonecatApp']);
       this.upgrade.bootstrap(document.body, ['onefaculty']);
     }
-    /*
-  constructor(
-    @Inject(PHONE_SERVICE) private phoneService: any) {
-    }
-
-    ngOnInit() {
-      this.phones = this.phoneService.query();
-    }
-*/
 }

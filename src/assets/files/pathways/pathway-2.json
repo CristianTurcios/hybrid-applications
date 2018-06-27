@@ -1,0 +1,111 @@
+{
+  "id": "pathway-2",
+  "image": "",
+  "name": "Introduction to Online Learning",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum.",
+  "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum. Cras nec sem at quam cursus mattis. Praesent magna nulla, consequat sit amet elementum ut, luctus at urna. Integer finibus velit sed aliquam porta. Nulla vel justo dui. Morbi vel commodo velit, at ultricies ligula. Duis malesuada mi odio, eget consectetur dui laoreet a. Duis placerat lorem sit amet justo auctor feugiat. Phasellus nec blandit lacus.",
+  "resource_groups": [
+    {
+      "id": "resource-group-3",
+      "badge": null,
+      "resources": [
+        {
+          "id": "resource-13",
+          "name": "Introduction to Digital Teaching and Learning",
+          "type": "module",
+          "topics": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          ],
+          "length": {
+            "from": 30,
+            "to": 60
+          },
+          "completed_steps": 0,
+          "total-steps": 12,
+          "finished": false,
+          "image": "resource-1"
+        }
+      ],
+      "required_resource_groups": null
+    },
+    {
+      "id": "resource-group-4",
+      "badge": {
+        "name": "Online Learning Explorer",
+        "image": "badge-online-explorer"
+      },
+      "resources": [
+        {
+          "id": "resource-14",
+          "name": "Digital Communication and Collaboration Tools for Teaching",
+          "type": "module",
+          "topics": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          ],
+          "length": {
+            "from": 30,
+            "to": 60
+          },
+          "completed_steps": 0,
+          "total-steps": 12,
+          "finished": false,
+          "image": "resource-1"
+        },
+        {
+          "id": "resource-15",
+          "name": "Principles of Andragogy",
+          "type": "module",
+          "topics": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          ],
+          "length": {
+            "from": 30,
+            "to": 60
+          },
+          "completed_steps": 0,
+          "total-steps": 12,
+          "finished": false,
+          "image": "resource-1"
+        },
+        {
+          "id": "resource-16",
+          "name": "Promoting Learning in the Blackboard Classroom",
+          "type": "module",
+          "topics": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          ],
+          "length": {
+            "from": 30,
+            "to": 60
+          },
+          "completed_steps": 0,
+          "total-steps": 12,
+          "finished": false,
+          "image": "resource-1"
+        },
+        {
+          "id": "resource-17",
+          "name": "Essential Blackboard Classrooms Functions",
+          "type": "module",
+          "topics": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          ],
+          "length": {
+            "from": 30,
+            "to": 60
+          },
+          "completed_steps": 0,
+          "total-steps": 12,
+          "finished": false,
+          "image": "resource-1"
+        }
+      ],
+      "required_resource_groups": ["resource-group-3"]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+
+
+/* Media Queries Mixin
+**********************/
+
+@mixin media ($breakpoint) {  
+
+  @if $breakpoint == tablet {  
+    @media only screen and (min-width: 40.5em) { @content; }  
+  }  
+  
+  @else if $breakpoint == desktop-s {  
+    @media only screen and (min-width: 64em) { @content; }  
+  } 
+  
+  @else if $breakpoint == desktop-m {  
+    @media only screen and (min-width: 79em) { @content; }  
+  } 
+  
+  @else if $breakpoint == desktop-l {  
+    @media only screen and (min-width: 103em) { @content; }  
+  } 
+  
+  @else if $breakpoint == desktop-xl {  
+    @media only screen and (min-width: 120em) { @content; }  
+  } 
+
+  @else if $breakpoint == mobile-only {  
+    @media only screen and (max-width: 40em) { @content; }  
+  }
+
+  @else if $breakpoint == tablet-p-only {  
+    @media only screen and (min-width: 40.5em) and (max-width: 64em) and (orientation : portrait) { @content; }  
+  }  
+  
+  @else if $breakpoint == tablet-l-only {  
+    @media only screen and (min-width: 40.5em) and (max-width: 64em) and (orientation : landscape) { @content; }  
+  } 
+  
+  @else if $breakpoint == desktop-s-only {  
+    @media only screen and (min-width: 64em) and (max-width: 90em) { @content; }  
+  } 
+  
+  @else if $breakpoint == desktop-m-only {  
+    @media only screen and (min-width: 90.063em) and (max-width: 120em) { @content; }  
+  } 
+} 
+
+

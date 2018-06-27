@@ -1,0 +1,298 @@
+
+
+/* 404 page
+**********************/
+
+.not-found {
+  background-image: url("/assets/images/404/404.png");
+  background-size: cover;
+  color: $white;
+  text-align: center;
+  min-height: 80%;
+	padding-bottom: 100px;
+  a {
+  display: inline-block;
+  color: $white;
+  }
+
+	.not-found__img {
+		margin-top: (200px/1230px*100%);
+		max-width: 100%;
+		height: auto;
+	}
+  .not-found__subtitle {
+    font-size: 12px;
+    font-weight: $semibold;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 16px;
+    margin-bottom: 0;
+    margin-top: 200px;
+    text-transform: uppercase;
+  }
+  .not-found__title {
+		font-family: $Gibson;
+    font-size: 150px;
+    font-weight: $bold;
+    color: #FFFFFF;
+    letter-spacing: 1.56px;
+    line-height: 120px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.50);
+  }
+  .links {
+    display: block;
+    margin-top: 20px;
+    > a {
+      color: #C33D1C;
+
+			+ a {
+	      margin-left: 20px;
+			}
+
+      &:hover {
+        color: #AF3011;
+      }
+    }
+  }
+}
+
+
+.button-wrapper {
+	max-width: 600px;
+	margin: auto;
+	.button {
+		margin: 5px 25px 100px;
+		max-width: 248px;
+		width: 248px;
+		float: left;
+	}
+}
+
+
+/* old browser Styles here
+**********************/
+
+.container-old-browser {
+	max-width: 910px;
+	text-align: center;
+	.header-section__parragraph {
+		margin: 5px;
+	}
+}
+
+.button-wrapper {
+	max-width: 600px;
+	margin: auto;
+	a.logo-chrome, a.logo-mozilla {
+		margin:  25px 50px;
+		width: 80px;
+		height: 80px;
+		display: inline-block;
+	}
+}
+
+
+/* Support Styles here
+**********************/
+
+.support-list {
+	padding: 40px 0 200px;
+}
+
+.support-list__item {
+	padding: 20px 0;
+	position: relative;
+}
+
+.support-list__question {
+	padding-left: 55px;
+	h3 {
+		@include font-size(32px);
+	}
+	a {
+		color: $blue--light;
+	}
+	i {
+		position: absolute;
+		left: 0;
+		top: 0;
+		line-height: 50px;
+		color: $blue--medium;
+		@include font-size(100px);
+	}
+}
+
+.support-list__item.selected {
+	a {
+		color: $blue--medium;
+	}
+	i {
+		left: 20px;
+	}
+}
+
+
+
+.support-list__answer {
+	padding: 40px ;
+	position: relative;
+	width: 100%;
+	top: 0;
+	display: none;
+	@include media(mobile-only) {
+		top: auto;
+		margin-top: 20px;
+	}
+	p {
+		font-weight: 300;
+		line-height: 35px;
+		color: $blue--dark;
+		@include font-size(20px);
+	}
+}
+
+.support-list__item.selected {
+	.support-list__answer {
+		display: block;
+		height: auto;
+	}
+}
+
+/* --FAQs V2--*/
+
+.container-support {
+	margin: 30px auto;
+	overflow: auto;
+
+	.question-item {
+    border-bottom: dotted 1px #ccc;
+    clear: both;
+    padding: 25px 10px;
+}
+
+	.question {
+		margin-bottom: 20px;
+		clear: both;
+		width: 100%;
+		cursor: pointer;
+
+		h4 { overflow: hidden; }
+	}
+
+	.question h1 {
+		display: inline;
+		font-size: 26px;
+		@include media(mobile-only) {
+			width: 85%;
+			float: right;
+		}
+		@include media(desktop-s) {
+			font-size: 35px;
+		}
+	}
+
+	.question i {
+		color: #9eb6ef;
+		display: inline;
+		margin-right: 12px;
+		font-size: 30px;
+		@include media(mobile-only) {
+			float: left;
+		}
+		@include media(desktop-s) {
+			font-size: 35px;
+		}
+	}
+
+	.answer {
+		font-size: 15px;
+		color: #5f5f5f;
+		height: 0;
+		overflow: hidden;
+		padding: 0 0 0 70px;
+	}
+
+	.answer-expanded {
+		height: auto;
+	}
+
+
+}
+
+
+
+/*
+.container-support {
+	h1, h1::before, .answer {
+		transition: .4s
+	}
+	h1 {
+		cursor: pointer
+	}
+	h1::before {
+		background: url(blue-arrow.svg);
+		transform: rotate(-90deg)
+	}
+	h1.open::before {
+		transform: none
+	}
+	h1.open ~ h1 {
+		transform: translateY(24px)
+	}
+	.answer {
+		opacity: 0;
+		pointer-events: none
+	}
+	h1.open + .answer {
+		opacity: 1;
+		pointer-events: auto;
+		transform: translateY(8px)
+	}
+
+}
+*/
+
+
+/* Support Banner
+**********************/
+
+.banner-orange {
+	background-color: $orange--dark;
+	color: white;
+  > .container > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+	h2 {
+		margin: 50px 0 20px;
+		@include media(tablet) {
+			margin: 30px 0;
+		}
+	}
+	.banner-orange__image {
+		width: 80px;
+		margin: 20px ;
+		opacity: .25;
+	}
+	.one-btn {
+		margin: 0 0 50px;
+		@include media(tablet) {
+			margin: 0 0 0 20px;
+		}
+	}
+}
+
+/* Clears
+**********************/
+.clear-both {
+	clear: both;
+	width: 100%;
+	display: block;
+}
+
+/* Status icons */
+.status-icon {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}

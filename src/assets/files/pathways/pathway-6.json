@@ -1,0 +1,93 @@
+{
+  "id": "pathway-4",
+  "image": "",
+  "name": "Online Learning Design",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum.",
+  "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum. Cras nec sem at quam cursus mattis. Praesent magna nulla, consequat sit amet elementum ut, luctus at urna. Integer finibus velit sed aliquam porta. Nulla vel justo dui. Morbi vel commodo velit, at ultricies ligula. Duis malesuada mi odio, eget consectetur dui laoreet a. Duis placerat lorem sit amet justo auctor feugiat. Phasellus nec blandit lacus.",
+  "resource_groups": [
+    {
+      "id": "resource-group-1",
+      "badge": {
+        "name": "Online Learning Designer",
+        "image": ""
+      },
+      "resources": [
+        {
+          "id": "resource-1",
+          "type": "module",
+          "name": "Introduction to Instructional Design",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        },
+        {
+          "id": "resource-2",
+          "type": "module",
+          "name": "Online Learning Design Considerations",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        },
+        {
+          "id": "resource-3",
+          "type": "module",
+          "name": "Intellectual Property in Digital Teaching & Learning",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        },
+        {
+          "id": "resource-4",
+          "type": "module",
+          "name": "Accessibility in Online Learning",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        }
+      ],
+      "required_resource_groups": null
+    },
+    {
+      "id": "resource-group-1",
+      "badge": {
+        "name": "Online Learning Developer",
+        "image": ""
+      },
+      "resources": [
+        {
+          "id": "resource-1",
+          "type": "module",
+          "name": "Developing Learning Outcomes and Objectives",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        },
+        {
+          "id": "resource-2",
+          "type": "module",
+          "name": "Developing Instructional Activities",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        },
+        {
+          "id": "resource-3",
+          "type": "module",
+          "name": "Developing Assessments for Student Learning",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        },
+        {
+          "id": "resource-4",
+          "type": "module",
+          "name": "Advanced Blackboard Tools",
+          "length": 20,
+          "finished": false,
+          "image": ""
+        }
+      ],
+      "required_resource_groups": null
+    }
+  ]
+}

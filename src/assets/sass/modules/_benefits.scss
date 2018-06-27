@@ -1,0 +1,42 @@
+
+/* Benefits for OneFaculty
+**********************/
+
+.benefit__item {
+	margin: 45px auto;
+	max-width: 400px;
+	padding: 0 20px;
+	text-align: center;
+	height: 365px;
+}
+
+.benefit__symbol {
+	margin-bottom: 20px;
+	img {
+		max-width: 200px;
+	}
+}
+
+.benefit__text {
+	margin-bottom: 40px;
+	h5{
+		margin-bottom: 20px;
+		font-weight: $bold;
+		text-transform: uppercase;
+		color: $orange--dark;
+		@include font-size(25px);
+	}
+	p {
+		font-weight: $thin;
+		line-height: 1.75em;
+	}
+}
+
+.contentblock--blue-medium .benefit__text {
+	h5 {
+		color: $white;
+	}
+	p {
+		color: $white;
+	}
+}

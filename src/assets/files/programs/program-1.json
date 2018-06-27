@@ -1,0 +1,149 @@
+{
+  "id": "program-1",
+  "name": "Health Sciences",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum. Cras nec sem at quam cursus mattis. Praesent magna nulla, consequat sit amet elementum ut, luctus at urna. Integer finibus velit sed aliquam porta. Nulla vel justo dui. Morbi vel commodo velit, at ultricies ligula. Duis malesuada mi odio, eget consectetur dui laoreet a. Duis placerat lorem sit amet justo auctor feugiat. Phasellus nec blandit lacus.",
+  "image": "program-1",
+  "pathways": [
+    {
+      "id": "pathway-1",
+      "image": "pathway-1",
+      "name": "Teaching Structure and Function",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum.",
+      "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum. Cras nec sem at quam cursus mattis. Praesent magna nulla, consequat sit amet elementum ut, luctus at urna. Integer finibus velit sed aliquam porta. Nulla vel justo dui. Morbi vel commodo velit, at ultricies ligula. Duis malesuada mi odio, eget consectetur dui laoreet a. Duis placerat lorem sit amet justo auctor feugiat. Phasellus nec blandit lacus.",
+      "resource_groups": [
+        {
+          "id": "resource-group-1",
+          "badge": {
+            "name": "Instructor",
+            "image": "badge-online-instructor"
+          },
+          "resources": [
+            {
+              "id": "resource-1",
+              "type": "paper",
+              "name": "Learning Integration in Structure",
+              "length": 20,
+              "finished": false,
+              "image": "resource-1"
+            },
+            {
+              "id": "resource-2",
+              "type": "paper",
+              "name": "Surface Anatomy Tools",
+              "length": 20,
+              "finished": false,
+              "image": "resource-1"
+            },
+            {
+              "id": "resource-3",
+              "type": "video",
+              "name": "Clinical Anatomy Tools",
+              "length": 20,
+              "finished": false,
+              "image": "resource-1"
+            },
+            {
+              "id": "resource-4",
+              "type": "video",
+              "name": "Digital Tools for Structure and Function",
+              "length": 20,
+              "finished": false,
+              "image": "resource-1"
+            },
+            {
+              "id": "resource-5",
+              "type": "paper",
+              "name": "Digital Tools for Structure and Function",
+              "length": 20,
+              "finished": false,
+              "image": "resource-1"
+            },
+            {
+              "id": "resource-6",
+              "type": "assessment",
+              "name": "Teaching structure and Function curriculums in Health Sciences",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum.",
+              "length": {
+                "from": 20,
+                "to": 30
+              },
+              "finished": false,
+              "image": "resource-1"
+            }
+          ],
+          "required_resource_groups": null
+        },
+        {
+          "id": "resource-group-2",
+          "badge": {
+            "name": "Designer",
+            "image": "badge-blended-instructor"
+          },
+          "resources": [
+            {
+              "id": "resource-6",
+              "type": "paper",
+              "name": "Creating Learning Goals",
+              "length": 20,
+              "finished": false,
+              "image": "resource-1"
+            },
+            {
+              "id": "resource-7",
+              "type": "paper",
+              "name": "Matching Learning Goals and Structure and Function Tools",
+              "length": 20,
+              "finished": false,
+              "image": "resource-1"
+            },
+            {
+              "id": "resource-8",
+              "type": "paper",
+              "name": "Structure of Academic Documents",
+              "length": 20,
+              "finished": false,
+              "image": "resource-1"
+            },
+            {
+              "id": "resource-9",
+              "type": "video",
+              "name": "Lab Practice Guides for Structure and Function",
+              "length": 15,
+              "finished": false,
+              "image": "resource-1"
+            },
+            {
+              "id": "resource-10",
+              "type": "paper",
+              "name": "PBL for Basic Sciences Teaching",
+              "length": 20,
+              "finished": false,
+              "image": "resource-1"
+            },
+            {
+              "id": "resource-11",
+              "type": "paper",
+              "name": "Creating Good Test Items",
+              "length": 20,
+              "finished": false,
+              "image": "resource-1"
+            },
+            {
+              "id": "resource-12",
+              "type": "assessment",
+              "name": "Creating Good Test Items",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat urna vitae sodales fermentum. Cras nec sem at quam cursus mattis. Praesent magna nulla, consequat sit amet elementum ut, luctus at urna.",
+              "length": {
+                "from": 20,
+                "to": 30
+              },
+              "finished": false,
+              "image": "resource-1"
+            }
+          ],
+          "required_resource_groups": null
+        }
+      ]
+    }
+  ]
+}

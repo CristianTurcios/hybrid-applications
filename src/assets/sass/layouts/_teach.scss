@@ -1,0 +1,59 @@
+#teaching--home .container {
+	max-width:854px;
+}
+
+#teaching--home {
+	.teaching--home__user-card-desk {
+		display: none;
+		@include media(desktop-s) {
+			display: block;
+		}
+	}
+
+	.teaching--home__user-card-mobile {
+		display: block;
+		@include media(desktop-s) {
+			display: none;
+		}
+	}
+
+	&.teaching__resource  {
+		// Remove text align: center property from .card-centered at user card in the resource detail page
+		.card-ceneterd {
+			text-align: left;
+		}
+
+		.kaltura-wrapper {
+			position: relative;
+			width: 100%;
+			padding-top: 56.25%;
+		}
+
+		#kaltura_player{
+			border: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		.card-resource__button {
+			@include media(mobile-only) {
+				width: 100%;
+			}
+		}
+
+		.teaching__resource-container {
+			margin-bottom: 30px;
+
+			b { font-weight: 600; }
+		}
+
+		.teaching__resource-description {
+			margin-bottom: 30px;
+		}
+	}
+}

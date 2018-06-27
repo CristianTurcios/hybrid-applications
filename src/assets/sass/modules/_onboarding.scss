@@ -1,0 +1,670 @@
+.stepone-container,
+.steptwo-container,
+.stepthree-container,
+.whats-next-container {
+	padding-top: 100px;
+	background-color: $white;
+
+	@include media(tablet) {
+		padding-top: 139px;
+	}
+}
+
+.whats-next-container {
+	padding-top: 60px;
+}
+
+#stepone, #steptwo, #stepthree, #confirm, #whats-next, #landing {
+	&.container {
+		max-width: 854px;
+	}
+
+	.search {
+		padding-top: 0;
+	}
+
+	.button {
+		text-transform: none;
+	}
+
+	color: $black--light;
+	font-family: $Gibson;
+
+	h5 {
+		&.onboarding--item_title {
+			margin-top: 40px;
+		}
+	}
+
+	p {
+		font-size: 16px;
+		letter-spacing: 0;
+		line-height: 24px;
+		margin: 20px 0 40px;
+		&.onboarding--item_description {
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+	}
+
+	.connections--why {
+		margin: 20px 0;
+	}
+
+	.block-interests-list__element {
+		display: inline-block;
+		width: 80%;
+	}
+
+	.onboarding--skip__container {
+		float: right;
+		text-decoration: underline;
+		margin-bottom: 40px;
+		margin-top: -32px;
+
+		> a {
+			color: inherit;
+		}
+		@include media(mobile-only) {
+			float: initial;
+			margin-top: -20px;
+		}
+	}
+
+	.form-input__message {
+		color: #C33D1C;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+
+	.form-input input[type="text"], textarea {
+		background-color: white;
+		border: 1px solid #0D1733;
+		border-radius: 4px;
+		box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+		color: #0D1733;
+	}
+
+	::-webkit-input-placeholder {
+		color: #0D1733;
+		font-size: 16px;
+		letter-spacing: 0.56px;
+		line-height: 24px;
+		opacity: 0.5;
+	}
+
+	:-moz-placeholder {
+		color: #0D1733;
+		font-size: 16px;
+		letter-spacing: 0.56px;
+		line-height: 24px;
+		opacity: 0.5;
+	}
+
+	::-moz-placeholder {
+		color: #0D1733;
+		font-size: 16px;
+		letter-spacing: 0.56px;
+		line-height: 24px;
+		opacity: 0.5;
+	}
+
+	:-ms-input-placeholder {
+		color: #0D1733;
+		font-size: 16px;
+		letter-spacing: 0.56px;
+		line-height: 24px;
+		opacity: 0.5;
+	}
+	::-ms-input-placeholder {
+		color: #0D1733;
+		font-size: 16px;
+		letter-spacing: 0.56px;
+		line-height: 24px;
+		opacity: 0.5;
+	}
+
+	.board-with-sidebar {
+		height: auto;
+		min-height: 450px;
+		margin-bottom: 60px;
+
+		@include media(mobile-only) {
+			position: relative;
+			overflow: hidden;
+			max-width: 100%;
+			margin-bottom: 40px;
+		}
+	}
+
+	.interests-list {
+		margin-left: 15px;
+		@include media(mobile-only) {
+			margin-left: 0;
+		}
+	}
+
+	.interests-list__container, .category-list {
+		@include media(mobile-only) {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+	.board-with-sidebar {
+		@include media(mobile-only) {
+			position: relative;
+			overflow: hidden;
+			max-width: 100%;
+		}
+	}
+	.interests-list__container {
+		@include media(mobile-only) {
+			position: absolute;
+			right: -500px;
+			transition: 1s;
+			&.animate-list {
+				transition: 1s;
+				right: -15px;
+				.onboarding--categories__back {
+					right: 0px;
+				}
+			}
+		}
+	}
+
+	.category-list {
+		li {
+			@include media(mobile-only) {
+				padding-left: 0;
+			}
+		}
+	}
+
+	.onboarding-nav {
+		text-align: center;
+		.onboarding-nav--error {
+			margin: 0 0 20px;
+			&:empty {
+				display: none;
+			}
+		}
+		.onboarding-nav--buttons > * + * { margin-left: 17px; }
+		@include media(mobile-only) {
+			.onboarding-nav--buttons:not(.onboarding-nav__stack .onboarding-nav--buttons) {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: justify;
+				-ms-flex-pack: justify;
+				justify-content: space-between;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				align-items: center;
+
+				> * { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+			}
+			&.onboarding-nav__stack .onboarding-nav--buttons {
+				margin-bottom: 40px;
+				> * { width: 100%; margin-left: 0; margin-bottom: 10px; }
+			}
+		}
+
+		.next-button:hover {
+			background-color: #f2f4f5;
+			border-color: #af3011;
+			color: #af3011;
+		}
+
+		.back-button:hover {
+			background-color: #F2F4F5;
+		}
+	}
+
+	.onboarding--list {
+		border-right: 1px #E6E8EB solid;
+		margin-left: 0;
+		@include media(mobile-only) {
+			border-right: none;
+		}
+	}
+
+	.onboarding--option_item {
+		padding: 10px;
+		span {
+			color: #0D1733;
+			font-size: 18px;
+			font-weight: $semibold;
+			letter-spacing: 0.56px;
+			line-height: 24px;
+		}
+		&.category_selected {
+			background-color: #E6E8EB;
+			margin-right: -8px;
+			.onboarding--option_item_arrow {
+				margin-right: 8px;
+			}
+			@include media(mobile-only) {
+				margin-right: 0px;
+			}
+		}
+		.onboarding--option_item_number {
+			color: #C33D1C;
+		}
+		.onboarding--option_item_arrow {
+			float: right;
+			background: url('/assets/images/icons/icon-arrow-right-small.svg') left top;
+			background-repeat: no-repeat;
+			display: block;
+			height: 16px;
+			margin-top: 5px;
+			width: 16px;
+		}
+	}
+
+	.interests-list__container {
+		.onboarding--categories__back {
+			background-color: #E6E8EB;
+			color: #0D1733;
+			cursor: pointer;
+			font-size: 18px;
+			font-weight: $semibold;
+			letter-spacing: 0.56px;
+			line-height: 24px;
+			margin-bottom: 15px;
+			margin-left: -15px;
+			padding-top: 7px;
+			padding-bottom: 7px;
+			width: 80%;
+			.onboarding--option_item_arrow_left {
+				float: left;
+				background: url('/assets/images/icons/icon-arrow-left-small.svg') left top;
+				background-repeat: no-repeat;
+				display: block;
+				height: 16px;
+				margin-left: 15px;
+				margin-right: 10px;
+				margin-top: 5px;
+				width: 16px;
+			}
+		}
+		.onboarding--categories__selected {
+			color: #0D1733;
+			font-size: 18px;
+			font-weight: $semibold;
+			letter-spacing: 0.56px;
+			line-height: 24px;
+			margin-bottom: 15px;
+			.onboarding--option_item_number {
+				color: #C33D1C;
+			}
+		}
+	}
+
+	.onboarding--option_element {
+		margin-bottom: 15px;
+		a {
+			padding: 0;
+		}
+	}
+
+	.interests-parent__title {
+		color: #323E56;
+		font-weight: $regular;
+		font-size: 16px;
+		letter-spacing: 0;
+		margin-left: 10px;
+		width: 90%;
+		@include media(mobile-only) {
+			float: right;
+		}
+	}
+
+	.onboarding--next {
+		text-align: center;
+
+		p {
+			margin: 0 0 20px;
+		}
+	}
+
+	.onboarading--button {
+		border: 2px solid #C33D1C;
+		background: #FFFFFF;
+		border-radius: 4px;
+		color: #C33D1C;
+		font-size: 21px;
+		font-weight: $semibold;
+		display: inline-block;
+		line-height: 16px;
+		margin-bottom: 70px;
+		margin-top: 0px;
+		min-width: 100px;
+		padding: 15px;
+		text-align: center;
+		white-space: nowrap;
+		width: auto;
+		@include media(mobile-only) {
+			min-width: 90px;
+			margin-right: 5px;
+		}
+	}
+
+	.back-button {
+		border: 1px solid #323E56;
+		color: #323E56;
+	}
+
+	.next-button {
+		border: 1px solid #C33D1C;
+		color: #C33D1C;
+	}
+
+	.menu-buttons {
+		margin-top: 20px;
+	}
+
+	.onboard-button-upload {
+		margin-left: 0;
+	}
+
+	.onboarding-button-upload__container {
+		border-radius: 150px 150px;
+		border: 3px solid #F3F3F3;
+		box-shadow: 0 0 1px 0px #FFFFFF inset, 0 0 1px 0px #FFFFFF;
+		height: 150px;
+		margin: 15px auto;
+		overflow: hidden;
+		position: relative;
+		width: 150px;
+	}
+
+	.onboarding-button-upload__container:hover::before {
+		content: url('/assets/images/onboarding/edit-avatar.png');
+		cursor: pointer;
+		display: block;
+		height: 60px;
+		position: absolute;
+		left: -6px;
+		top: -6px;
+		width: 60px;
+		z-index: 200;
+	}
+
+	.onboarding--picture_title {
+		margin-top: 30px;
+	}
+
+	.onboarding--connections__container {
+		h1 {
+			font-size: 18px;
+		}
+
+		.container {
+			padding-left: 0;
+		}
+
+		.search-results__container {
+			padding-left: 0;
+		}
+	}
+
+	.onboarding--confirm__content {
+		margin-top: 120px;
+		margin-bottom: 60px;
+
+		@include media(mobile-only) {
+			margin-top: 100px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.my-passport {
+		width: 222px;
+		height: 280px;
+		box-shadow: 0 3px 0 #c33d1c;
+		background-image: linear-gradient(180deg, #c33d1c 0%, #f05c22 100%);
+		webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+		left: 50%;
+		margin-left: -111px;
+		clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+		z-index: 5;
+		transform-origin: top center;
+		transform: scale(0.536036036);
+		@media (min-width: 768px) {
+			left: auto;
+			transform: scale(1);
+			margin-left: 5px;
+		}
+		@include media(mobile-only) {
+			width: 500px;
+			height: 650px;
+			margin-left: -250px;
+		}
+	}
+	.my-passport-shadow {
+		width: 222px;
+		height: 285px;
+		box-shadow: 0 3px 0 #c33d1c;
+		background-image: linear-gradient(180deg, #c33d1c 0%, #C33D1C 100%);
+		webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+		position: absolute;
+		left: 50%;
+		margin-left: -111px;
+		clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+		z-index: 4;
+		transform-origin: top center;
+		transform: scale(0.536036036);
+		@media (min-width: 768px) {
+			left: auto;
+			margin-left: 5px;
+			transform: scale(1);
+		}
+		@include media(mobile-only) {
+			height: 655px;
+			margin-left: -250px;
+			width: 500px;
+		}
+	}
+	.passport-logo {
+		left: 20px;
+		margin: 0 auto;
+		margin-top: 20px;
+		position: relative;
+		width: 152px;
+		@include media(mobile-only) {
+			margin-top: 50px;
+			left: 70px;
+			width: 300px;
+		}
+	}
+	.my-passport-avatar-cont {
+		margin: 0 auto;
+		margin-top: 20px;
+		width: 152px;
+		@include media(mobile-only) {
+			margin-top: 45px;
+			margin-left: 100px;
+			width: 300px;
+		}
+	}
+	.my-passport-avatar {
+		background-color: #fff;
+		border: 5px solid #fff;
+		border-radius: 50%;
+		width: 100%;
+	}
+
+	.onboarding--info {
+		margin-left: 20px;
+		.onboarding--info__about {
+			margin-left: 5px;
+			h5 {
+				margin: 40px 0 0;
+			}
+		}
+		@include media(mobile-only) {
+			margin-top: -250px;
+			margin-left: 0;
+		}
+	}
+
+	.onboarding--whatsnext__content {
+		background-image: url('/assets/images/onboarding/what-next.png');
+	}
+
+	.onboarding--no_connections {
+		margin: 0 auto;
+		max-width: 700px;
+	}
+}
+
+#whats-next {
+	margin-bottom: 70px;
+	h1 {
+		margin-bottom: 40px;
+	}
+	h2 {
+		color: $white;
+		width: 300px;
+		text-transform: uppercase;
+		@include media(mobile-only) {
+			font-size: 36px;
+			margin-left: 0;
+			line-height: 37px;
+			width: 250px;
+		}
+	}
+	h4 {
+		color: $white;
+		font-size: 18px;
+		letter-spacing: 0.56px;
+		line-height: 24px;
+		margin-top: 30px;
+		@include media(mobile-only) {
+			width: 200px;
+		}
+	}
+	h5 {
+		color: $white;
+		margin-bottom: 15px;
+		margin-top: 30px;
+	}
+	p {
+		font-weight: $light;
+		width: 400px;
+		@include media(mobile-only) {
+			width: 200px;
+		}
+	}
+	.onboarding--whatsnext__content {
+		color: $white;
+		width: 90%;
+		div {
+			margin-left: 20px;
+		}
+		@include media(mobile-only) {
+			width: 100%;
+			margin-left: 0;
+		}
+	}
+
+	.episode-button {
+		border-color: $white;
+		color: #C33D1C;
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 35px;
+		margin-top: 15px;
+		padding: 10px;
+	}
+}
+
+#landing {
+	h5 {
+		color: $white;
+		margin-left: 15px;
+		margin-bottom: 8px;
+		margin-top: 100px;
+		@include media(tablet) {
+			margin-top: 160px;
+		}
+	}
+	h1 {
+		color: $white;
+		margin-left: 15px;
+		text-transform: uppercase;
+	}
+	h2 {
+		color: $white;
+		margin-bottom: 42px;
+		margin-left: 15px;
+		margin-top: 80px;
+		@include media(mobile-only) {
+			margin-top: 40px;
+		}
+	}
+
+	.landing-cards {
+		min-height: 0;
+		padding-bottom: 30px;
+		@include media(tablet) {
+			padding-bottom: 100px;
+		}
+	}
+
+	.onboarding--landing__choice {
+		background: rgba(255,255,255,0.90);
+		border-radius: 6px;
+		cursor: pointer;
+		margin-bottom: 30px;
+		padding: 30px 30px 29px;
+		img {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 7px;
+		}
+		a {
+			color: #C33D1C;
+			font-weight: $light;
+			text-align: center;
+			font-size: 34px;
+			line-height: 36px;
+			margin-bottom: 21px;
+		}
+		p {
+			font-size: 16px;
+			color: #0D1733;
+			letter-spacing: 0;
+			line-height: 24px;
+			text-align: center;
+			margin-bottom: 0;
+		}
+		@include media(desktop-s) {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.landing-container {
+	background: url('/assets/images/passport/landing-background.jpg') center center no-repeat;
+	background-size: 100%;
+	background-size: cover;
+	min-height: 900px;
+	@include media(mobile-only) {
+		background-size: auto 100%;
+		min-height: 100%;
+	}
+}
+
+.confirm-container {
+	background-image: url('/assets/images/onboarding/onboarding-background.png');
+}
+
+.whats-next-container {
+	padding-bottom: 20px;
+}
+
+.whats-next-one-faculty-container {
+	padding-top: 20px;
+	margin-bottom: 70px;
+}

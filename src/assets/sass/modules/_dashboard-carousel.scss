@@ -1,0 +1,188 @@
+#slides_control {
+	.dashboard-slide__wrapper {
+		height: 980px;
+		@include media(mobile-only) {
+			height: 880px;
+		}
+	}
+	.position-relative {
+		position: relative;
+	}
+	.slider-logo {
+		position: absolute;
+		max-width: 210px;
+		right: 0;
+		top: 0px;
+		@include media(desktop-s) {
+			position: absolute;
+			display: inline-block;
+		}
+		@include media(mobile-only) {
+			position: relative;
+			display: block;
+			top: 0px;
+			margin-top: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			max-height: 60px;
+		}
+		@include media(tablet) {
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+
+	.carousel-caption {
+		text-align: left;
+		padding-bottom: 85px;
+		padding-top: 60px;
+		top: 60px;
+		text-shadow: none;
+		@include media(mobile-only) {
+			padding-bottom: 110px;
+			padding-top: 40px;
+		}
+
+		left: 0;
+		right: 0;
+		z-index: 0;
+	}
+
+	.dashboard-slide__title {
+		text-shadow: 0 1px 4px rgba(0,0,0,0.50);
+		max-width: (450px/48px*1em);
+
+		@include media(mobile-only) {
+			font-size: 24px;
+		}
+	}
+
+	.dashboard-slide__title--large {
+		max-width: (580px/48px*1em)
+	}
+
+	.dashboard-slide__description {
+		max-width: 600px;
+	}
+
+	.carousel-control.right, .carousel-control.left {
+		background: none;
+		z-index: 10;
+	}
+
+	.glyphicon-chevron-right:before {
+	content: url("../images/icons/icon-arrow-right-carousel.svg");
+	}
+
+	.glyphicon-chevron-left:before {
+	content: url("../images/icons/icon-arrow-left-carousel.svg");
+	}
+
+	.carousel-control .glyphicon-chevron-right,
+	.carousel-control .glyphicon-chevron-left {
+		top: 415px;
+		@include media(tablet) {
+			top: 240px;
+		}
+	}
+
+	.carousel-indicators li {
+		width: 12px;
+		height: 12px;
+		margin: 2px;
+		margin-right: 10px;
+		background-color: white;
+	}
+
+	.carousel-indicators .active {
+		width: 16px;
+		height: 16px;
+		background-color: #97B4DD;
+		margin-bottom: 0px;
+		border: 1px solid #97B4DD;
+	}
+}
+
+$dashboard-card-mobile-height: 232px;
+$dashboard-card-desktop-height: 260px;
+$dashboard-slide-button-height-desktop: 30px;
+$dashboard-slide-button-height-mobile: 60px;
+
+[data-numcourses="1"] #slides_control .dashboard-slide__wrapper {
+	@include media(mobile-only) { height: 978px; }
+}
+[data-numcourses="2"] #slides_control .dashboard-slide__wrapper {
+	@include media(mobile-only) { height: 978px + $dashboard-card-mobile-height; }
+}
+[data-numcourses="2"][data-morecourses="true"] #slides_control .dashboard-slide__wrapper {
+	height: 970px + $dashboard-slide-button-height-desktop;
+	@include media(mobile-only) { height: 978px + $dashboard-card-mobile-height + $dashboard-slide-button-height-mobile; }
+}
+@for $row from 3 through 30 {
+	[data-numcourses="#{$row}"] #slides_control .dashboard-slide__wrapper {
+		height: 970px + (floor(($row - 1) / 2) * $dashboard-card-desktop-height);
+	}
+}
+@include media(mobile-only) {
+	@for $row from 3 through 30 {
+		[data-numcourses="#{$row}"] #slides_control .dashboard-slide__wrapper {
+			height: 978px + (($row - 1) * $dashboard-card-mobile-height);
+		}
+	}
+}
+
+.dashboard-slide {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	@include media(desktop-s) {
+		background-size: 100% auto;
+	}
+}
+
+.dashboard-slide--1 {
+	background-image: url('/assets/images/homepage/header-dashboard-1.jpg');
+	background-color: #C33D1C;
+}
+.dashboard-slide--voices {
+	background-image: url('/assets/images/homepage/faculty-voices-bg.jpg');
+	background-color: #B63414;
+}
+.dashboard-slide--2 {
+	background-image: url('/assets/images/homepage/header-dashboard-2.jpg');
+	background-color: #333E56;
+}
+.dashboard-slide--4 {
+	background-image: url('/assets/images/homepage/header-dashboard-4.jpg');
+	background-color: #494067;
+}
+.dashboard-slide--research {
+	background-image: url('/assets/images/homepage/header-dashboard-research.jpg');
+	background-color: #484166;
+}
+
+.dashboard__courses {
+	left: 0;
+	margin: auto;
+	padding-bottom: 12px;
+	position: absolute;
+	right: 0;
+	top: 530px;
+	padding-top: 40px;
+	border-top: 1px solid #0D1733;
+	.dashboard__courses--label {
+		font-size: 13px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: white;
+		margin-bottom: 20px;
+		display: block;
+	}
+	@include media(mobile-only) {
+		top: 470px;
+	}
+
+	.summary-tile {
+		margin-bottom: 20px;
+	}
+}

@@ -1,0 +1,35 @@
+/* Styles for OneFolio Template
+ **********************/
+
+.pattern--onefolio {
+	background-image: url("../img/global/onefolio-background-pattern.png");
+	background-color: #323232;
+}
+
+.picture-caption {
+	width: 100%;
+	position: absolute; 
+	bottom: -40px;
+	left: 0;
+	font-weight: $thin;
+	opacity: 0.75;
+	color: $midlight-gray;
+	@include media(mobile-only) { 
+    display: none;
+  } 
+}
+
+.modal--terms-onefolio {
+    background: url('../img/global/onefolio-background-pattern-2.png') repeat-x $black;
+}
+
+/* One Folio specific labels for email input due to long placeholder 
+**********************/
+
+.pattern--onefolio #email + .form-label {
+    @include media(mobile-only) {
+        height: 20px;
+        overflow: hidden;
+        font-size: 12px;
+    }
+}

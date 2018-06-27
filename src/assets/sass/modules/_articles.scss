@@ -1,0 +1,160 @@
+
+
+/* Articles for OneFaculty
+**********************/
+
+.onefa-breadcrumb {
+	margin-top: 40px;
+	padding: 10px 0;
+	text-transform: uppercase;
+	border-bottom: 4px solid $gray--light;
+	li {
+		margin-right: 8px;
+		display: inline-block;
+		font-family: $Gibson;
+		font-weight: $bold;
+		color: $gray--dark;
+		@include font-size(28px);
+	}
+	.main-category {
+		color: $aqua-research;
+	}
+}
+.funding .onefa-breadcrumb {
+	.main-category {
+		color: $yellow-research;
+	}
+}
+
+.onefa-breadcrumb {
+li.related-content__item {
+    clear: both;
+    height: auto;
+    margin: 0 0 38px 0;
+    padding: 5px 0;
+    border-bottom: dotted 1px #ccc;
+}
+}
+.article {
+	margin: 20px 0;
+	text-align: center;
+	header {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	img {
+		height: auto;
+		max-width: 100%;
+	}
+	
+	iframe {
+    width: 100% !important;
+    margin: 20px auto;
+    height: 380px !important;
+    clear: both;
+	}
+}
+
+.article__title {
+	font-weight: $bold;
+	font-family: $Gibson;
+	color: $blue--dark;
+	@include font-size(35px);
+}
+
+.funding .article__category {
+	background-color: $yellow-research;
+}
+
+.article__category {
+	margin: 10px auto;
+	padding: 4px 15px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 4px;
+	background-color: $aqua-research;
+	color: $white;
+	cursor: pointer;
+	@include font-size(12px);
+}
+
+.article__author {
+	color: $blue--light;
+	display: none; /*Temporary fix*/
+}
+
+.article__parragraph {
+	margin: 10px 0;
+	font-weight: $light;
+	line-height: 2em;
+	text-align: justify;
+	word-break: break-word;
+	color: $blue--medium;
+	@include font-size(18px);
+		
+}
+
+.related-content {
+	h2 {
+		font-weight: $bold;
+		font-family: $Gibson;
+		color: $blue--dark;
+	}
+}
+
+.related-content__item .card-short {
+	width: 100%;
+	max-width: 100%;
+	.content-label {
+		padding: 4px 15px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		background-color: $orange--dark;
+		border-radius: 4px;
+		color: $white;
+		@include font-size(14px);
+	}
+	.card-short__title {
+		margin: 10px 0;
+		font-family: $Gibson;
+		font-weight: $bold;
+		color: $blue--medium;
+	}
+}
+
+
+/* Funding Articles for OneFaculty
+**********************/
+
+.funding {
+	margin: 40px auto 0;
+}
+
+.funding__title {
+	margin: 30px 10px;
+	font-family: $Gibson;
+	font-weight: $bold;
+	color: $yellow-research;
+	@include font-size(25px);
+}
+
+.funding .funding-external {
+	display: none;
+}
+
+.funding__contact {
+	text-align: center;
+	display: none; /*temporary xix */
+	h2 {
+		margin: 40px 0;
+		font-family: $Gibson;
+		font-weight: $bold;
+		color: $blue--dark;
+		@include font-size(25px);
+	}
+	a {
+		padding: 10px;
+		text-transform: lowercase;
+	}
+}

@@ -13,6 +13,7 @@ export class AppComponent {
    constructor(private upgrade: UpgradeModule) { }
 
     ngOnInit() {
+      console.log('sdfgsdfgsdf 121212');
       this.upgrade.bootstrap(document.body, ['onefaculty']);
     }
 }

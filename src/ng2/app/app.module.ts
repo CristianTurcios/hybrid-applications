@@ -10,17 +10,18 @@ declare var angular: any;
 
 export class CustomHandlingStrategy implements UrlHandlingStrategy {
   shouldProcessUrl(url) {
-    return url.toString().startsWith('/route') || url.toString() === '/'
+    console.log('url', url.toString());
+    return url.toString().startsWith('/homee') || url.toString() === '/'
   }
   extract(url) { return url; }
   merge(url, whole) { return url; }
 }
 
-// angular.module('onefaculty')
-//   .directive(
-//     'ng2Demo',
-//     downgradeComponent({ component: Ng2DemoComponent })
-//   );
+angular.module('onefaculty')
+  .directive(
+    'ng2Demo',
+    downgradeComponent({ component: Ng2DemoComponent })
+  );
 
 @NgModule({
   declarations: [
@@ -32,7 +33,12 @@ export class CustomHandlingStrategy implements UrlHandlingStrategy {
     UpgradeModule,
     RouterModule.forRoot([
       {
-        path: 'route',
+        path: '',
+        pathMatch: 'full',
+        redirectTo: 'homee'
+      },
+      {
+        path: 'homee',
         component: Ng2DemoComponent
       }
     ],
@@ -53,9 +59,11 @@ export class CustomHandlingStrategy implements UrlHandlingStrategy {
 
 export class AppModule {
 
-  // constructor(private upgrade: UpgradeModule) { }
-  // ngDoBootstrap() {
-  //   this.upgrade.bootstrap(document.body, ['phonecatApp'], { strictDi: true });
-  // }
+  constructor(private upgrade: UpgradeModule) { }
+  ngDoBootstrap() {
+    // this.upgrade.bootstrap(document.body, ['onefaculty'], { strictDi: true });
+    // console.log('sdfgsdfgsdf 121212');
+    // this.upgrade.bootstrap(document.body, ['onefaculty']);
+  }
 }
 

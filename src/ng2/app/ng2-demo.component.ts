@@ -14,6 +14,8 @@ export class Ng2DemoComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() { }
+  ngOnInit() {
+    console.log('sfgsdfg en el nuevo')
+   }
 
 }
